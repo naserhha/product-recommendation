@@ -278,4 +278,5 @@ https://www.contributor-covenant.org/translations.
 ---
 
 **Last Updated**: July 2025
+
 **Next Review**: October 2025
