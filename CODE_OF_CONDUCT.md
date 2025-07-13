@@ -60,7 +60,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
-conduct@mohammadnasser.com. All complaints will be reviewed and investigated
+info@mohammadnasser.com. All complaints will be reviewed and investigated
 promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
@@ -120,7 +120,7 @@ the community.
 ## Reporting Guidelines
 
 If you believe someone is violating the Code of Conduct, we ask that you report
-it by emailing conduct@mohammadnasser.com. All reports will be kept confidential.
+it by emailing info@mohammadnasser.com. All reports will be kept confidential.
 In some cases we may determine that a public statement will need to be made. If
 that's the case, the identities of all victims and reporters will remain
 confidential unless those individuals instruct us otherwise.
@@ -144,7 +144,7 @@ to contact the appropriate agency.
 
 ### What Happens After You File a Report
 
-You will receive an email from the conduct@mohammadnasser.com address acknowledging
+You will receive an email from the info@mohammadnasser.com address acknowledging
 receipt immediately. We promise to take action within 24 hours (and will aim for
 much quicker than that) to contact you and/or the accused individual to find out
 more about what happened. We may involve other community members to help resolve
@@ -162,7 +162,7 @@ We will take into account many factors when determining a response, including:
 ### Appealing
 
 Only permanent resolutions (such as bans) may be appealed. To appeal a decision,
-contact the conduct@mohammadnasser.com email with your appeal and the conduct
+contact the info@mohammadnasser.com email with your appeal and the conduct
 team will review the case.
 
 ## Community Guidelines
@@ -259,7 +259,7 @@ grows and changes. We welcome feedback and suggestions for improvement.
 
 ## Contact Information
 
-* **Code of Conduct Team**: conduct@mohammadnasser.com
+* **Code of Conduct Team**: info@mohammadnasser.com
 * **Project Maintainer**: [@nasserhaji](https://github.com/nasserhaji)
 * **Emergency Contact**: emergency@mohammadnasser.com
 
@@ -277,5 +277,5 @@ https://www.contributor-covenant.org/translations.
 
 ---
 
-**Last Updated**: January 2024  
-**Next Review**: April 2024 
+**Last Updated**: July 2025
+**Next Review**: October 2025
