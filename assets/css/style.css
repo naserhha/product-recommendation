@@ -1,0 +1,481 @@
+/* Secure Product Recommendation Form Styles */
+/* This file ensures all resources are loaded over HTTPS */
+
+/* System Fonts - No external dependencies */
+.product-recommendation-form {
+    font-family: 'Tahoma', 'Arial', 'Helvetica', 'Verdana', sans-serif;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background: linear-gradient(135deg, #8c0101 0%, #6b0000 100%);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(140, 1, 1, 0.3);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Secure background pattern using CSS only */
+.product-recommendation-form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 1px, transparent 1px),
+        radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+/* Header Section */
+.product-recommendation-header {
+    text-align: center;
+    margin-bottom: 2em;
+    position: relative;
+    z-index: 1;
+}
+
+.product-recommendation-header h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.product-recommendation-header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Progress Bar */
+.product-recommendation-progress {
+    margin: 2em 0;
+    position: relative;
+    z-index: 1;
+}
+
+.product-recommendation-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-recommendation-progress-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #fff 0%, #ffb3b3 100%);
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+/* Step Labels */
+.product-recommendation-step-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    position: relative;
+    z-index: 1;
+}
+
+.product-recommendation-step-label {
+    flex: 1;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 0.2em;
+}
+
+.product-recommendation-step-label.active {
+    opacity: 1;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Form Steps */
+.product-recommendation-step {
+    display: none;
+    animation: fadeInUp 0.5s ease;
+}
+
+.product-recommendation-step.active {
+    display: block;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product-recommendation-step h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0 0 1.5em 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* Option Cards */
+.product-recommendation-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.product-recommendation-option {
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    padding: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+.product-recommendation-option:hover {
+    background: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.product-recommendation-option.selected {
+    background: #fff;
+    color: #8c0101;
+    border-color: #fff;
+    box-shadow: 0 8px 25px rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+}
+
+/* Navigation Buttons */
+.product-recommendation-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    position: relative;
+    z-index: 1;
+}
+
+.product-recommendation-prev,
+.product-recommendation-next {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.3);
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.product-recommendation-prev:hover,
+.product-recommendation-next:hover {
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(255,255,255,0.5);
+    transform: translateY(-2px);
+}
+
+.product-recommendation-submit {
+    background: #fff;
+    color: #8c0101;
+    border: 2px solid #fff;
+    padding: 1em 2em;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.product-recommendation-submit:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255,255,255,0.3);
+}
+
+/* Loading Spinner */
+.product-recommendation-loading {
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    z-index: 1;
+}
+
+.product-recommendation-loading::after {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Results */
+.product-recommendation-results {
+    margin-top: 2em;
+    position: relative;
+    z-index: 1;
+}
+
+.product-recommendation-random-notice {
+    background: rgba(255,255,255,0.1);
+    padding: 1em;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.product-recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.product-recommendation-item {
+    background: rgba(255,255,255,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    animation: slideInUp 0.5s ease;
+}
+
+.product-recommendation-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product-recommendation-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-recommendation-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-recommendation-item:hover .product-recommendation-image img {
+    transform: scale(1.05);
+}
+
+.product-recommendation-content {
+    padding: 1.5em;
+}
+
+.product-recommendation-content h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0 0 0.5em 0;
+    color: #fff;
+}
+
+.product-recommendation-price {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #ffb3b3;
+    margin-bottom: 0.5em;
+}
+
+.product-recommendation-description {
+    font-size: 0.9em;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin-bottom: 1em;
+}
+
+.product-recommendation-actions {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.product-recommendation-actions .button {
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.3);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+    font-family: inherit;
+}
+
+.product-recommendation-actions .button:hover {
+    background: rgba(255,255,255,0.3);
+    border-color: rgba(255,255,255,0.5);
+    transform: translateY(-2px);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Error Message */
+.product-recommendation-error {
+    background: rgba(255,0,0,0.2);
+    border: 2px solid rgba(255,0,0,0.3);
+    color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+    margin: 1em 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-recommendation-form {
+        margin: 1em;
+        padding: 1.5em;
+    }
+    
+    .product-recommendation-header h2 {
+        font-size: 2em;
+    }
+    
+    .product-recommendation-step h3 {
+        font-size: 1.5em;
+    }
+    
+    .product-recommendation-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-recommendation-option {
+        padding: 1em;
+    }
+    
+    .product-recommendation-navigation {
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .product-recommendation-prev,
+    .product-recommendation-next,
+    .product-recommendation-submit {
+        width: 100%;
+    }
+    
+    .product-recommendation-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-recommendation-step-labels {
+        flex-wrap: wrap;
+    }
+    
+    .product-recommendation-step-label {
+        font-size: 0.8em;
+        padding: 0.3em;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-recommendation-form {
+        margin: 0.5em;
+        padding: 1em;
+    }
+    
+    .product-recommendation-header h2 {
+        font-size: 1.8em;
+    }
+    
+    .product-recommendation-content {
+        padding: 1em;
+    }
+    
+    .product-recommendation-actions {
+        flex-direction: column;
+    }
+}
+
+/* Accessibility */
+.product-recommendation-option:focus,
+.product-recommendation-prev:focus,
+.product-recommendation-next:focus,
+.product-recommendation-submit:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .product-recommendation-form {
+        border: 2px solid #fff;
+    }
+    
+    .product-recommendation-option {
+        border: 2px solid #fff;
+    }
+    
+    .product-recommendation-option.selected {
+        border: 3px solid #fff;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    .product-recommendation-form *,
+    .product-recommendation-form *::before,
+    .product-recommendation-form *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+} 

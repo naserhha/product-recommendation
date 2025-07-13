@@ -1,0 +1,155 @@
+{
+    "name": "nasserhaji/product-recommendation",
+    "description": "A comprehensive product recommendation system for WooCommerce that helps customers find the perfect products based on their preferences and characteristics.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "woocommerce",
+        "product",
+        "recommendation",
+        "ecommerce",
+        "form",
+        "questionnaire"
+    ],
+    "homepage": "https://github.com/nasserhaji/product-recommendation",
+    "authors": [
+        {
+            "name": "Mohammad Nasser Haji Hashemabad",
+            "email": "support@mohammadnasser.com",
+            "homepage": "https://mohammadnasser.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nasserhaji/product-recommendation/issues",
+        "source": "https://github.com/nasserhaji/product-recommendation",
+        "docs": "https://github.com/nasserhaji/product-recommendation#readme",
+        "email": "support@mohammadnasser.com"
+    },
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "squizlabs/php_codesniffer": "^3.0",
+        "wp-coding-standards/wpcs": "^2.0",
+        "phpstan/phpstan": "^1.0",
+        "phpcs-security-audit/phpcs-security-audit": "^1.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+        "phpcompatibility/php-compatibility": "^9.0",
+        "phpcompatibility/phpcs-phpcompatibility-wp": "^2.0",
+        "roave/security-advisories": "dev-latest",
+        "phpdocumentor/phpdocumentor": "^3.0",
+        "php-coveralls/php-coveralls": "^2.0",
+        "symfony/var-dumper": "^5.0",
+        "monolog/monolog": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProductRecommendation\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ProductRecommendation\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-html coverage",
+        "test:unit": "phpunit --testsuite=unit",
+        "test:integration": "phpunit --testsuite=integration",
+        "cs": "phpcs --standard=WordPress --extensions=php --ignore=vendor/,node_modules/ .",
+        "cs:fix": "phpcbf --standard=WordPress --extensions=php --ignore=vendor/,node_modules/ .",
+        "stan": "phpstan analyse --level=5 --memory-limit=2G",
+        "security": "phpcs --standard=Security --extensions=php --ignore=vendor/,node_modules/ .",
+        "compatibility": "phpcs --standard=PHPCompatibilityWP --extensions=php --ignore=vendor/,node_modules/ .",
+        "docs": "phpdoc -d includes -t docs/api",
+        "build": [
+            "@test",
+            "@cs",
+            "@stan",
+            "@security"
+        ],
+        "pre-commit": [
+            "@cs",
+            "@stan",
+            "@test"
+        ],
+        "post-install-cmd": [
+            "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ],
+        "post-update-cmd": [
+            "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "extra": {
+        "installer-name": "product-recommendation",
+        "wordpress-install-dir": "wp-content/plugins",
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        },
+        "plugin-name": "Product Recommendation System",
+        "plugin-slug": "product-recommendation",
+        "plugin-uri": "https://github.com/nasserhaji/product-recommendation",
+        "author-uri": "https://mohammadnasser.com",
+        "requires": {
+            "wordpress": ">=5.0",
+            "woocommerce": ">=5.0",
+            "php": ">=7.4"
+        },
+        "tested": {
+            "wordpress": "6.4",
+            "woocommerce": "8.0",
+            "php": "8.1"
+        },
+        "requires-php": "7.4",
+        "text-domain": "product-recommendation",
+        "domain-path": "/languages"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nasserhaji/product-recommendation"
+        }
+    ],
+    "suggest": {
+        "ext-curl": "For better HTTP request handling",
+        "ext-json": "For JSON data processing",
+        "ext-mbstring": "For proper string handling",
+        "ext-xml": "For XML processing",
+        "ext-zip": "For ZIP file operations"
+    },
+    "provide": {
+        "php-http/client-implementation": "*"
+    },
+    "conflict": {
+        "php": "<7.4"
+    },
+    "replace": {
+        "paragonie/random_compat": "2.*"
+    }
+} 

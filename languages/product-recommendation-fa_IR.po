@@ -1,0 +1,1315 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Recommendation System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-13 15:10+0100\n"
+"PO-Revision-Date: 2024-07-13 15:10+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/class-product-form.php:64
+#: includes/class-product-recommendation-activator.php:127
+#: includes/class-product-recommendation-frontend.php:88
+#: includes/class-product-recommendation-settings.php:140
+#: includes/class-product-recommendation.php:631
+msgid "What type of product are you looking for?"
+msgstr "چه نوع محصولی را جستجو می‌کنید؟"
+
+#: includes/class-product-form.php:67
+#: includes/class-product-recommendation-activator.php:130
+#: includes/class-product-recommendation-frontend.php:91
+#: includes/class-product-recommendation-settings.php:143
+#: includes/class-product-recommendation.php:634
+msgid "Clothing"
+msgstr "پوشاک"
+
+#: includes/class-product-form.php:68
+#: includes/class-product-recommendation-activator.php:131
+#: includes/class-product-recommendation-frontend.php:92
+#: includes/class-product-recommendation-settings.php:144
+#: includes/class-product-recommendation.php:635
+msgid "Digital Accessories"
+msgstr "لوازم جانبی دیجیتال"
+
+#: includes/class-product-form.php:69
+#: includes/class-product-recommendation-activator.php:132
+#: includes/class-product-recommendation-frontend.php:93
+#: includes/class-product-recommendation-settings.php:145
+#: includes/class-product-recommendation.php:636
+msgid "Home Appliances"
+msgstr "لوازم خانگی"
+
+#: includes/class-product-form.php:70
+#: includes/class-product-recommendation-activator.php:133
+#: includes/class-product-recommendation-frontend.php:94
+#: includes/class-product-recommendation-settings.php:146
+#: includes/class-product-recommendation.php:637
+msgid "Beauty & Health"
+msgstr "زیبایی و سلامت"
+
+#: includes/class-product-form.php:71
+#: includes/class-product-recommendation-activator.php:134
+#: includes/class-product-recommendation-frontend.php:95
+#: includes/class-product-recommendation-settings.php:147
+#: includes/class-product-recommendation.php:638
+msgid "Books"
+msgstr "کتاب‌ها"
+
+#: includes/class-product-form.php:72
+#: includes/class-product-recommendation-activator.php:135
+#: includes/class-product-recommendation-frontend.php:96
+#: includes/class-product-recommendation-settings.php:148
+#: includes/class-product-recommendation.php:639
+msgid "Other"
+msgstr "سایر"
+
+#: includes/class-product-form.php:76
+#: includes/class-product-recommendation-activator.php:139
+#: includes/class-product-recommendation-frontend.php:100
+#: includes/class-product-recommendation-settings.php:152
+#: includes/class-product-recommendation.php:643
+msgid "What is your preferred price range?"
+msgstr "محدوده قیمت مورد نظر شما چیست؟"
+
+#: includes/class-product-form.php:79
+#: includes/class-product-recommendation-activator.php:142
+#: includes/class-product-recommendation-frontend.php:103
+#: includes/class-product-recommendation-settings.php:155
+#: includes/class-product-recommendation.php:646
+msgid "Less than 500 thousand Tomans"
+msgstr "کمتر از ۵۰۰ هزار تومان"
+
+#: includes/class-product-form.php:80
+#: includes/class-product-recommendation-activator.php:143
+#: includes/class-product-recommendation-frontend.php:104
+#: includes/class-product-recommendation-settings.php:156
+#: includes/class-product-recommendation.php:647
+msgid "500 thousand to 2 million Tomans"
+msgstr "۵۰۰ هزار تا ۲ میلیون تومان"
+
+#: includes/class-product-form.php:81
+#: includes/class-product-recommendation-activator.php:144
+#: includes/class-product-recommendation-frontend.php:105
+#: includes/class-product-recommendation-settings.php:157
+#: includes/class-product-recommendation.php:648
+msgid "More than 2 million Tomans"
+msgstr "بیش از ۲ میلیون تومان"
+
+#: includes/class-product-form.php:85
+#: includes/class-product-recommendation-activator.php:148
+#: includes/class-product-recommendation-frontend.php:109
+#: includes/class-product-recommendation-settings.php:161
+#: includes/class-product-recommendation.php:652
+msgid "Who is this product for?"
+msgstr "این محصول برای چه کسی است؟"
+
+#: includes/class-product-form.php:88
+#: includes/class-product-recommendation-activator.php:151
+#: includes/class-product-recommendation-frontend.php:112
+#: includes/class-product-recommendation-settings.php:164
+#: includes/class-product-recommendation.php:655
+msgid "Myself"
+msgstr "خودم"
+
+#: includes/class-product-form.php:89
+#: includes/class-product-recommendation-activator.php:152
+#: includes/class-product-recommendation-frontend.php:113
+#: includes/class-product-recommendation-settings.php:165
+#: includes/class-product-recommendation.php:656
+msgid "Family members"
+msgstr "اعضای خانواده"
+
+#: includes/class-product-form.php:90
+#: includes/class-product-recommendation-activator.php:153
+#: includes/class-product-recommendation-frontend.php:114
+#: includes/class-product-recommendation-settings.php:166
+#: includes/class-product-recommendation.php:657
+msgid "Gift for friend"
+msgstr "هدیه برای دوست"
+
+#: includes/class-product-form.php:91
+#: includes/class-product-recommendation-activator.php:154
+#: includes/class-product-recommendation-frontend.php:115
+#: includes/class-product-recommendation-settings.php:167
+#: includes/class-product-recommendation.php:658
+msgid "Child"
+msgstr "کودک"
+
+#: includes/class-product-form.php:92
+#: includes/class-product-recommendation-activator.php:155
+#: includes/class-product-recommendation-frontend.php:116
+#: includes/class-product-recommendation-settings.php:168
+#: includes/class-product-recommendation.php:659
+msgid "Teenager"
+msgstr "نوجوان"
+
+#: includes/class-product-form.php:93
+#: includes/class-product-recommendation-activator.php:156
+#: includes/class-product-recommendation-frontend.php:117
+#: includes/class-product-recommendation-settings.php:169
+#: includes/class-product-recommendation.php:660
+msgid "Adult"
+msgstr "بزرگسال"
+
+#: includes/class-product-form.php:97
+#: includes/class-product-recommendation-activator.php:160
+#: includes/class-product-recommendation-frontend.php:121
+#: includes/class-product-recommendation-settings.php:173
+#: includes/class-product-recommendation.php:664
+msgid "What style and color do you prefer?"
+msgstr "چه سبک و رنگی را ترجیح می‌دهید؟"
+
+#: includes/class-product-form.php:100
+#: includes/class-product-recommendation-activator.php:163
+#: includes/class-product-recommendation-frontend.php:124
+#: includes/class-product-recommendation-settings.php:176
+#: includes/class-product-recommendation.php:667
+msgid "Light colors"
+msgstr "رنگ‌های روشن"
+
+#: includes/class-product-form.php:101
+#: includes/class-product-recommendation-activator.php:164
+#: includes/class-product-recommendation-frontend.php:125
+#: includes/class-product-recommendation-settings.php:177
+#: includes/class-product-recommendation.php:668
+msgid "Dark colors"
+msgstr "رنگ‌های تیره"
+
+#: includes/class-product-form.php:102
+#: includes/class-product-recommendation-activator.php:165
+#: includes/class-product-recommendation-frontend.php:126
+#: includes/class-product-recommendation-settings.php:178
+#: includes/class-product-recommendation.php:669
+msgid "Classic"
+msgstr "کلاسیک"
+
+#: includes/class-product-form.php:103
+#: includes/class-product-recommendation-activator.php:166
+#: includes/class-product-recommendation-frontend.php:127
+#: includes/class-product-recommendation-settings.php:179
+#: includes/class-product-recommendation.php:670
+msgid "Modern"
+msgstr "مدرن"
+
+#: includes/class-product-form.php:104
+#: includes/class-product-recommendation-activator.php:167
+#: includes/class-product-recommendation-frontend.php:128
+#: includes/class-product-recommendation-settings.php:180
+#: includes/class-product-recommendation.php:671
+msgid "Sporty"
+msgstr "ورزشی"
+
+#: includes/class-product-form.php:108
+#: includes/class-product-recommendation-activator.php:171
+#: includes/class-product-recommendation-frontend.php:132
+#: includes/class-product-recommendation-settings.php:184
+#: includes/class-product-recommendation.php:675
+msgid "How do you plan to use this product?"
+msgstr "چگونه قصد استفاده از این محصول را دارید؟"
+
+#: includes/class-product-form.php:111
+#: includes/class-product-recommendation-activator.php:174
+#: includes/class-product-recommendation-frontend.php:135
+#: includes/class-product-recommendation-settings.php:187
+#: includes/class-product-recommendation.php:678
+msgid "Daily use"
+msgstr "استفاده روزانه"
+
+#: includes/class-product-form.php:112
+#: includes/class-product-recommendation-activator.php:175
+#: includes/class-product-recommendation-frontend.php:136
+#: includes/class-product-recommendation-settings.php:188
+#: includes/class-product-recommendation.php:679
+msgid "Party"
+msgstr "مهمانی"
+
+#: includes/class-product-form.php:113
+#: includes/class-product-recommendation-activator.php:176
+#: includes/class-product-recommendation-frontend.php:137
+#: includes/class-product-recommendation-settings.php:189
+#: includes/class-product-recommendation.php:680
+msgid "Workplace"
+msgstr "محل کار"
+
+#: includes/class-product-form.php:114
+#: includes/class-product-recommendation-activator.php:177
+#: includes/class-product-recommendation-frontend.php:138
+#: includes/class-product-recommendation-settings.php:190
+#: includes/class-product-recommendation.php:681
+msgid "Travel"
+msgstr "سفر"
+
+#: includes/class-product-form.php:115
+#: includes/class-product-recommendation-activator.php:178
+#: includes/class-product-recommendation-frontend.php:139
+#: includes/class-product-recommendation-settings.php:191
+#: includes/class-product-recommendation.php:682
+msgid "Sports"
+msgstr "ورزش"
+
+#: includes/class-product-form.php:119
+#: includes/class-product-recommendation-activator.php:182
+#: includes/class-product-recommendation-frontend.php:143
+#: includes/class-product-recommendation-settings.php:195
+#: includes/class-product-recommendation.php:686
+msgid "What special features are important to you?"
+msgstr "چه ویژگی‌های خاصی برای شما مهم است؟"
+
+#: includes/class-product-form.php:122
+#: includes/class-product-recommendation-activator.php:185
+#: includes/class-product-recommendation-frontend.php:146
+#: includes/class-product-recommendation-settings.php:198
+#: includes/class-product-recommendation.php:689
+msgid "High build quality"
+msgstr "کیفیت ساخت بالا"
+
+#: includes/class-product-form.php:123
+#: includes/class-product-recommendation-activator.php:186
+#: includes/class-product-recommendation-frontend.php:147
+#: includes/class-product-recommendation-settings.php:199
+#: includes/class-product-recommendation.php:690
+msgid "Reputable brand"
+msgstr "برند معتبر"
+
+#: includes/class-product-form.php:124
+#: includes/class-product-recommendation-activator.php:187
+#: includes/class-product-recommendation-frontend.php:148
+#: includes/class-product-recommendation-settings.php:200
+#: includes/class-product-recommendation.php:691
+msgid "Low energy consumption"
+msgstr "مصرف انرژی کم"
+
+#: includes/class-product-form.php:125
+#: includes/class-product-recommendation-activator.php:188
+#: includes/class-product-recommendation-frontend.php:149
+#: includes/class-product-recommendation-settings.php:201
+#: includes/class-product-recommendation.php:692
+msgid "Portable"
+msgstr "قابل حمل"
+
+#: includes/class-product-form.php:126
+#: includes/class-product-recommendation-activator.php:189
+#: includes/class-product-recommendation-frontend.php:150
+#: includes/class-product-recommendation-settings.php:202
+#: includes/class-product-recommendation.php:693
+msgid "Multi-functional"
+msgstr "چند منظوره"
+
+#: includes/class-product-form.php:276
+msgid ""
+"No options defined for this question. Please add options from WooCommerce "
+"attributes or plugin settings."
+msgstr ""
+
+#: includes/class-product-form.php:285
+#: includes/class-product-recommendation-frontend.php:279
+#: includes/class-product-recommendation.php:471
+msgid "Previous"
+msgstr "قبلی"
+
+#: includes/class-product-form.php:288
+#: includes/class-product-recommendation-frontend.php:280
+#: includes/class-product-recommendation.php:472
+msgid "Next"
+msgstr "بعدی"
+
+#: includes/class-product-form.php:290
+#: includes/class-product-recommendation-frontend.php:281
+#: includes/class-product-recommendation.php:473
+msgid "Get Recommendations"
+msgstr "دریافت توصیه‌ها"
+
+#: includes/class-product-form.php:377
+msgid "Recommended products for you:"
+msgstr "محصولات توصیه شده برای شما:"
+
+#: includes/class-product-form.php:425
+#: includes/class-product-recommendation-frontend.php:192
+#: includes/class-product-recommendation.php:209
+msgid "View Details"
+msgstr "مشاهده جزئیات"
+
+#: includes/class-product-form.php:426
+#: includes/class-product-recommendation-frontend.php:193
+#: includes/class-product-recommendation.php:210
+msgid "Add to Cart"
+msgstr "افزودن به سبد خرید"
+
+#: includes/class-product-recommendation-activator.php:208
+msgid "Product Category"
+msgstr "دسته‌بندی محصول"
+
+#: includes/class-product-recommendation-activator.php:209
+msgid "Price Range"
+msgstr "محدوده قیمت"
+
+#: includes/class-product-recommendation-activator.php:210
+msgid "Product Target"
+msgstr "هدف محصول"
+
+#: includes/class-product-recommendation-activator.php:211
+msgid "Style and Color"
+msgstr "سبک و رنگ"
+
+#: includes/class-product-recommendation-activator.php:212
+msgid "Product Usage"
+msgstr "استفاده محصول"
+
+#: includes/class-product-recommendation-activator.php:213
+msgid "Special Feature"
+msgstr "ویژگی خاص"
+
+#: includes/class-product-recommendation-ajax.php:59
+#: includes/class-product-recommendation-ajax.php:125
+#: includes/class-product-recommendation-ajax.php:217
+msgid "This is a sample product"
+msgstr "این یک محصول نمونه است"
+
+#: includes/class-product-recommendation-ajax.php:59
+#: includes/class-product-recommendation-ajax.php:217
+msgid "Please add real products to the store."
+msgstr "لطفاً محصولات واقعی را به فروشگاه اضافه کنید."
+
+#: includes/class-product-recommendation-ajax.php:62
+#: includes/class-product-recommendation-ajax.php:76
+#: includes/class-product-recommendation-ajax.php:220
+#: includes/class-product-recommendation-ajax.php:234
+msgid "Contact for price"
+msgstr "برای اطلاع از قیمت تماس بگیرید"
+
+#: includes/class-product-recommendation-ajax.php:102
+msgid "Error processing request:"
+msgstr "خطا در پردازش درخواست:"
+
+#: includes/class-product-recommendation-ajax.php:124
+msgid "Sample Product"
+msgstr "محصول نمونه"
+
+#: includes/class-product-recommendation-frontend.php:189
+#: includes/class-product-recommendation.php:206
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: includes/class-product-recommendation-frontend.php:190
+#: includes/class-product-recommendation.php:207
+msgid "An error occurred. Please try again."
+msgstr "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+#: includes/class-product-recommendation-frontend.php:191
+#: includes/class-product-recommendation.php:208
+#: includes/class-product-recommendation.php:510
+msgid "No products found matching your criteria."
+msgstr "هیچ محصولی مطابق معیارهای شما یافت نشد."
+
+#: includes/class-product-recommendation-frontend.php:207
+#: includes/class-product-recommendation-settings.php:273
+#: includes/class-product-recommendation.php:399
+msgid "Product Recommendation"
+msgstr "توصیه محصول"
+
+#: includes/class-product-recommendation-frontend.php:208
+#: includes/class-product-recommendation.php:400
+msgid ""
+"Please answer a few short questions so we can recommend the right product "
+"for you"
+msgstr "لطفاً به چند سوال کوتاه پاسخ دهید تا بتوانیم محصول مناسب را برای شما توصیه کنیم"
+
+#: includes/class-product-recommendation-frontend.php:226
+#: includes/class-product-recommendation.php:418
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: includes/class-product-recommendation-frontend.php:229
+#: includes/class-product-recommendation.php:421
+msgid "Price"
+msgstr "قیمت"
+
+#: includes/class-product-recommendation-frontend.php:232
+#: includes/class-product-recommendation.php:424
+msgid "Target"
+msgstr "هدف"
+
+#: includes/class-product-recommendation-frontend.php:235
+#: includes/class-product-recommendation.php:427
+msgid "Style"
+msgstr "سبک"
+
+#: includes/class-product-recommendation-frontend.php:238
+#: includes/class-product-recommendation.php:430
+msgid "Usage"
+msgstr "استفاده"
+
+#: includes/class-product-recommendation-frontend.php:241
+#: includes/class-product-recommendation.php:433
+msgid "Feature"
+msgstr "ویژگی"
+
+#: includes/class-product-recommendation-frontend.php:288
+#: includes/class-product-recommendation.php:480
+msgid "Processing..."
+msgstr "در حال پردازش..."
+
+#: includes/class-product-recommendation-settings.php:241
+msgid ""
+"Plugin feature management is only done through this page. Plugin-related "
+"links have been removed from other dashboard sections."
+msgstr "مدیریت ویژگی‌های افزونه فقط از طریق این صفحه انجام می‌شود. پیوندهای مربوط به افزونه از سایر بخش‌های داشبورد حذف شده‌اند."
+
+#: includes/class-product-recommendation-settings.php:246
+msgid ""
+"Plugin default language has been updated to match the current WordPress "
+"language."
+msgstr "زبان پیش‌فرض افزونه برای مطابقت با زبان فعلی وردپرس بروزرسانی شده است."
+
+#: includes/class-product-recommendation-settings.php:275
+#: includes/class-product-recommendation.php:238
+#: includes/class-product-recommendation.php:239
+msgid "Guide"
+msgstr "راهنما"
+
+#: includes/class-product-recommendation-settings.php:276
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: includes/class-product-recommendation-settings.php:277
+msgid "Base Questions"
+msgstr "سوالات پایه"
+
+#: includes/class-product-recommendation-settings.php:278
+msgid "Plugin Features"
+msgstr "ویژگی‌های افزونه"
+
+#: includes/class-product-recommendation-settings.php:279
+msgid "Language Support"
+msgstr "پشتیبانی زبان"
+
+#: includes/class-product-recommendation-settings.php:283
+msgid "Complete Guide to Using the Product Recommendation Plugin"
+msgstr "راهنمای کامل استفاده از افزونه توصیه محصول"
+
+#: includes/class-product-recommendation-settings.php:285
+msgid "Step 1: Configure Base Questions"
+msgstr "مرحله 1: پیکربندی سوالات پایه"
+
+#: includes/class-product-recommendation-settings.php:287
+msgid "Go to the Base Questions tab"
+msgstr "به بخش سوالات پایه بروید"
+
+#: includes/class-product-recommendation-settings.php:288
+msgid ""
+"Review the default questions (product category, price range, target "
+"audience, style, usage, special feature)"
+msgstr "پیش‌فرض سوالات را بررسی کنید (دسته‌بندی محصول، محدوده قیمت، هدف، سبک، استفاده، ویژگی خاص)"
+
+#: includes/class-product-recommendation-settings.php:289
+msgid "Edit question titles if needed"
+msgstr "اگر نیاز به ویرایش عنوان سوال دارید، آنها را ویرایش کنید."
+
+#: includes/class-product-recommendation-settings.php:290
+msgid ""
+"Enter options for each question in the relevant section (one option per line)"
+msgstr "در بخش مربوطه برای هر سوال، گزینه‌ها را وارد کنید (یک گزینه در هر خط)"
+
+#: includes/class-product-recommendation-settings.php:291
+msgid "To add a new question, use the 'Add New Question' section"
+msgstr "برای اضافه کردن سوال جدید، بخش 'اضافه کردن سوال جدید' را استفاده کنید."
+
+#: includes/class-product-recommendation-settings.php:292
+msgid "Click the Save Base Questions button"
+msgstr "دکمه ذخیره سوالات پایه را کلیک کنید."
+
+#: includes/class-product-recommendation-settings.php:295
+msgid "Step 2: Customize Form Appearance"
+msgstr "مرحله 2: طراحی کردن فرم"
+
+#: includes/class-product-recommendation-settings.php:297
+msgid "Go to the General Settings tab"
+msgstr "به بخش تنظیمات عمومی بروید"
+
+#: includes/class-product-recommendation-settings.php:298
+msgid "Check that the plugin is enabled (should be checked)"
+msgstr "تأیید کنید که افزونه فعال است (باید چک شود)."
+
+#: includes/class-product-recommendation-settings.php:299
+msgid "Enter a custom message if needed"
+msgstr "اگر نیاز به پیام سفارشی دارید، آن را وارد کنید."
+
+#: includes/class-product-recommendation-settings.php:300
+msgid "Set the primary plugin color (example: #8c0101)"
+msgstr "رنگ اصلی افزونه را تنظیم کنید (مثال: #8c0101)."
+
+#: includes/class-product-recommendation-settings.php:301
+msgid "Choose the form font color (example: #fff for white)"
+msgstr "رنگ فونت فرم را انتخاب کنید (مثال: #fff برای سفید)."
+
+#: includes/class-product-recommendation-settings.php:302
+msgid "Set button colors and button text colors"
+msgstr "رنگ دکمه‌ها و رنگ متن دکمه‌ها را تنظیم کنید."
+
+#: includes/class-product-recommendation-settings.php:303
+msgid "Click the Save General Settings button"
+msgstr "دکمه ذخیره تنظیمات عمومی را کلیک کنید."
+
+#: includes/class-product-recommendation-settings.php:306
+msgid "Step 3: Manage Product Characteristics"
+msgstr "مرحله 3: مدیریت ویژگی‌های محصول"
+
+#: includes/class-product-recommendation-settings.php:308
+msgid "Go to the Plugin Features tab"
+msgstr "به بخش ویژگی‌های افزونه بروید"
+
+#: includes/class-product-recommendation-settings.php:309
+msgid "View the list of all available characteristics"
+msgstr "لیست کامل ویژگی‌های قابل دسترس را مشاهده کنید."
+
+#: includes/class-product-recommendation-settings.php:310
+msgid "For each characteristic, review the available options"
+msgstr "برای هر ویژگی، گزینه‌های موجود را بررسی کنید."
+
+#: includes/class-product-recommendation-settings.php:311
+msgid "Add new options if needed"
+msgstr "اگر نیاز به گزینه جدید دارید، آنها را اضافه کنید."
+
+#: includes/class-product-recommendation-settings.php:312
+msgid "Remove unnecessary options"
+msgstr "گزینه‌های غیرضروری را حذف کنید."
+
+#: includes/class-product-recommendation-settings.php:313
+msgid "Or use separate submenus to manage each characteristic:"
+msgstr "یا از زیرمنوهای جداگانه برای مدیریت هر ویژگی استفاده کنید:"
+
+#: includes/class-product-recommendation-settings.php:315
+msgid "Product Characteristics:"
+msgstr "ویژگی‌های محصول:"
+
+#: includes/class-product-recommendation-settings.php:315
+msgid "to define different product characteristics"
+msgstr "برای تعریف ویژگی‌های محصول متفاوت"
+
+#: includes/class-product-recommendation-settings.php:316
+msgid "Suitable For:"
+msgstr "مناسب برای:"
+
+#: includes/class-product-recommendation-settings.php:316
+msgid "to define occasions"
+msgstr "برای تعریف رویدادها"
+
+#: includes/class-product-recommendation-settings.php:317
+msgid "Suitable Season:"
+msgstr "فصل مناسب:"
+
+#: includes/class-product-recommendation-settings.php:317
+#, fuzzy
+msgid "to define suitable seasons"
+msgstr "برای تعریف فصل‌های مناسب"
+
+#: includes/class-product-recommendation-settings.php:318
+msgid "Gender:"
+msgstr "جنسیت:"
+
+#: includes/class-product-recommendation-settings.php:318
+msgid "to define suitable gender"
+msgstr "برای تعریف جنسیت مناسب"
+
+#: includes/class-product-recommendation-settings.php:319
+msgid "Quality:"
+msgstr "کیفیت:"
+
+#: includes/class-product-recommendation-settings.php:319
+msgid "to define quality levels"
+msgstr "برای تعریف سطوح کیفیت"
+
+#: includes/class-product-recommendation-settings.php:320
+msgid "Usage:"
+msgstr "استفاده:"
+
+#: includes/class-product-recommendation-settings.php:320
+msgid "to define different usages"
+msgstr "برای تعریف استفاده‌های متفاوت"
+
+#: includes/class-product-recommendation-settings.php:325
+msgid "Step 4: Configure Products"
+msgstr "مرحله 4: پیکربندی محصولات"
+
+#: includes/class-product-recommendation-settings.php:327
+msgid "Go to Products > All Products"
+msgstr "به بخش محصولات > تمام محصولات بروید"
+
+#: includes/class-product-recommendation-settings.php:328
+msgid "Click on the desired product to edit it"
+msgstr "محصول مورد نظر را برای ویرایش کلیک کنید."
+
+#: includes/class-product-recommendation-settings.php:329
+msgid ""
+"In the Product Characteristics section (located at the bottom of the product "
+"page):"
+msgstr "در بخش ویژگی‌های محصول (در پایین صفحه محصول):"
+
+#: includes/class-product-recommendation-settings.php:330
+msgid "For each base question, select the appropriate option:"
+msgstr "برای هر سوال پایه، گزینه مناسب را انتخاب کنید:"
+
+#: includes/class-product-recommendation-settings.php:332
+msgid ""
+"Product Category: Clothing, Digital Accessories, Home Appliances, Beauty & "
+"Health, Books, Other"
+msgstr "دسته‌بندی محصول: پوشاک، لوازم جانبی دیجیتال، لوازم خانگی، زیبایی و سلامت، کتاب‌ها، سایر"
+
+#: includes/class-product-recommendation-settings.php:333
+msgid ""
+"Price Range: Less than 500 thousand Tomans, 500 thousand to 2 million "
+"Tomans, More than 2 million Tomans"
+msgstr "محدوده قیمت: کمتر از ۵۰۰ هزار تومان، ۵۰۰ هزار تا ۲ میلیون تومان، بیش از ۲ میلیون تومان"
+
+#: includes/class-product-recommendation-settings.php:334
+msgid ""
+"Target Audience: Myself, Family members, Gift for friend, Child, Teenager, "
+"Adult"
+msgstr "هدف محصول: خودم، اعضای خانواده، هدیه برای دوست، کودک، نوجوان، بزرگسال"
+
+#: includes/class-product-recommendation-settings.php:335
+msgid "Style: Bright colors, Dark colors, Classic, Modern, Sporty"
+msgstr "سبک: رنگ‌های روشن، رنگ‌های تیره، کلاسیک، مدرن، ورزشی"
+
+#: includes/class-product-recommendation-settings.php:336
+msgid "Usage: Daily use, Party, Workplace, Travel, Sports"
+msgstr "استفاده: استفاده روزانه، مهمانی، محل کار، سفر، ورزش"
+
+#: includes/class-product-recommendation-settings.php:337
+msgid ""
+"Special Feature: High build quality, Reputable brand, Low energy "
+"consumption, Portable, Multi-functional"
+msgstr "ویژگی خاص: کیفیت ساخت بالا، برند معتبر، مصرف انرژی کم، قابل حمل، چند منظوره"
+
+#: includes/class-product-recommendation-settings.php:340
+msgid ""
+"Also configure other product characteristics (features, occasions, seasons, "
+"etc.)"
+msgstr "همچنین ویژگی‌های محصول دیگر را پیکربندی کنید (ویژگی‌ها، رویدادها، فصل‌ها، و غیره)."
+
+#: includes/class-product-recommendation-settings.php:341
+msgid "Save the product"
+msgstr "محصول را ذخیره کنید."
+
+#: includes/class-product-recommendation-settings.php:342
+msgid "Repeat this process for all products you want to display in the form"
+msgstr "برای نمایش همه محصولاتی که در فرم نمایش داده می‌شوند، این فرآیند را تکرار کنید."
+
+#: includes/class-product-recommendation-settings.php:343
+msgid "Step 5: Place the Form on Your Site"
+msgstr "مرحله 5: قرار دادن فرم در سایت شما"
+
+#: includes/class-product-recommendation-settings.php:345
+msgid "Go to Pages > Add New Page"
+msgstr "به بخش صفحات > اضافه کردن صفحه جدید بروید"
+
+#: includes/class-product-recommendation-settings.php:346
+msgid "Enter the page title (example: Product Recommendation)"
+msgstr "عنوان صفحه را وارد کنید (مثال: توصیه محصول)."
+
+#: includes/class-product-recommendation-settings.php:347
+msgid "In the page content, place the following shortcode:"
+msgstr "در محتوای صفحه، شورت‌کد زیر را قرار دهید:"
+
+#: includes/class-product-recommendation-settings.php:349
+msgid "Publish the page"
+msgstr "صفحه را منتشر کنید."
+
+#: includes/class-product-recommendation-settings.php:350
+msgid ""
+"Or place the same shortcode in any other page or post where you want the "
+"form to appear"
+msgstr "یا شورت‌کد یکسان را در هر صفحه یا پست دیگری که می‌خواهید فرم نمایش داده شود قرار دهید."
+
+#: includes/class-product-recommendation-settings.php:353
+msgid "Step 6: Test Functionality"
+msgstr "مرحله 6: آزمون کارایی"
+
+#: includes/class-product-recommendation-settings.php:355
+msgid "Go to the page where you placed the form"
+msgstr "به صفحه‌ای که فرم را قرار داده‌اید بروید."
+
+#: includes/class-product-recommendation-settings.php:356
+msgid ""
+"View the form and make sure questions and options are displayed correctly"
+msgstr "فرم را مشاهده کنید و مطمئن شوید سوالات و گزینه‌ها به درستی نمایش داده شده‌اند."
+
+#: includes/class-product-recommendation-settings.php:357
+msgid "Fill out the form and try different responses"
+msgstr "فرم را پر کنید و پاسخ‌های مختلف را امتحان کنید."
+
+#: includes/class-product-recommendation-settings.php:358
+msgid "Check that recommended products are displayed"
+msgstr "تأیید کنید که محصولات توصیه شده نمایش داده شده‌اند."
+
+#: includes/class-product-recommendation-settings.php:359
+msgid ""
+"If no product is displayed, check that the product characteristics are set "
+"correctly"
+msgstr "اگر محصولی نمایش داده نشد، تأیید کنید که ویژگی‌های محصول به درستی تنظیم شده‌اند."
+
+#: includes/class-product-recommendation-settings.php:362
+msgid "Troubleshooting Common Issues"
+msgstr "رفع مشکلات متداول"
+
+#: includes/class-product-recommendation-settings.php:364
+msgid "Question options are empty:"
+msgstr "گزینه‌های سوال خالی است:"
+
+#: includes/class-product-recommendation-settings.php:364
+msgid "Go to the Plugin Features tab and add options"
+msgstr "به بخش ویژگی‌های افزونه و گزینه‌ها را اضافه کنید."
+
+#: includes/class-product-recommendation-settings.php:365
+msgid "No product is displayed:"
+msgstr "محصولی نمایش داده نشد:"
+
+#: includes/class-product-recommendation-settings.php:365
+msgid "Check product characteristics"
+msgstr "ویژگی‌های محصول را بررسی کنید."
+
+#: includes/class-product-recommendation-settings.php:366
+msgid "Colors are not correct:"
+msgstr "رنگ‌ها صحیح نیست:"
+
+#: includes/class-product-recommendation-settings.php:366
+msgid "Check general settings"
+msgstr "تنظیمات عمومی را بررسی کنید."
+
+#: includes/class-product-recommendation-settings.php:367
+msgid "Form is not displayed:"
+msgstr "فرم نمایش داده نشد:"
+
+#: includes/class-product-recommendation-settings.php:367
+msgid "Check the shortcode"
+msgstr "شورت‌کد را بررسی کنید."
+
+#: includes/class-product-recommendation-settings.php:370
+msgid "Important Notes"
+msgstr "یادداشت‌های مهم"
+
+#: includes/class-product-recommendation-settings.php:372
+msgid ""
+"All characteristic management and plugin options are done only through this "
+"page"
+msgstr "تمام مدیریت ویژگی‌ها و گزینه‌های افزونه فقط از طریق این صفحه انجام می‌شود."
+
+#: includes/class-product-recommendation-settings.php:373
+msgid "Plugin-related links have been removed from other admin sections"
+msgstr "پیوندهای مربوط به افزونه از سایر بخش‌های مدیریت ادمین حذف شده‌اند."
+
+#: includes/class-product-recommendation-settings.php:374
+msgid ""
+"For best results, configure at least 6 products with different "
+"characteristics"
+msgstr "برای بهترین نتیجه، حداقل 6 محصول با ویژگی‌های متفاوت پیکربندی کنید."
+
+#: includes/class-product-recommendation-settings.php:375
+msgid "Product characteristics must match question options"
+msgstr "ویژگی‌های محصول باید با گزینه‌های سوال مطابقت داشته باشد."
+
+#: includes/class-product-recommendation-settings.php:376
+msgid "The form automatically adapts to your settings"
+msgstr "فرم به تنظیمات خودتان به طور خودکار منطبق خواهد شد."
+
+#: includes/class-product-recommendation-settings.php:379
+msgid ""
+"WordPress language setting. The following languages and countries are fully "
+"supported:"
+msgstr "این افزونه چند زبان پشتیبانی می‌کند و به طور خودکار با زبان وردپرس شما منطبق می‌شود. زبان‌ها و کشورهای زیر به طور کامل پشتیبانی می‌شوند:"
+
+#: includes/class-product-recommendation-settings.php:382
+msgid ""
+"WordPress language is set to one of the supported languages, the plugin will "
+"automatically use that language for all text and interface elements."
+msgstr "افزونه به طور خودکار زبان وردپرس شما را شناسایی می‌کند و تمام عناصر رابط کاربری، سوالات و گزینه‌ها را مطابق آن تنظیم می‌کند. اگر زبان وردپرس شما یکی از زبان‌های پشتیبانی‌شده باشد، افزونه به طور خودکار از آن زبان برای تمام متن‌ها و عناصر رابط کاربری استفاده خواهد کرد."
+
+#: includes/class-product-recommendation-settings.php:468
+msgid "Summary of Steps:"
+msgstr "خلاصه مراحل:"
+
+#: includes/class-product-recommendation-settings.php:469
+msgid ""
+"1. Configure base questions → 2. Customize form appearance → 3. Manage "
+"characteristics → 4. Configure products → 5. Place form on site → 6. Test "
+"functionality"
+msgstr "1. سوالات پایه را پیکربندی کنید → 2. ظاهر فرم را طراحی کنید → 3. ویژگی‌ها را مدیریت کنید → 4. محصولات را پیکربندی کنید → 5. فرم را در سایت قرار دهید → 6. کارایی را آزمون کنید"
+
+#: includes/class-product-recommendation-settings.php:481
+msgid "Enable Plugin"
+msgstr "فعال‌سازی افزونه"
+
+#: includes/class-product-recommendation-settings.php:487
+msgid "Custom Message"
+msgstr "پیام سفارشی"
+
+#: includes/class-product-recommendation-settings.php:493
+msgid "Primary Color"
+msgstr "رنگ اصلی"
+
+#: includes/class-product-recommendation-settings.php:495
+msgid "Example: #8c0101 or rgba(140,1,1,1)"
+msgstr "مثال: #8c0101 یا rgba(140,1,1,1)"
+
+#: includes/class-product-recommendation-settings.php:496
+msgid ""
+"Enter color code in HEX or RGBA format. (Example: #8c0101 or rgba(140,1,1,1))"
+msgstr "رنگ را در فرمت HEX یا RGBA وارد کنید. (مثال: #8c0101 یا rgba(140,1,1,1))"
+
+#: includes/class-product-recommendation-settings.php:500
+msgid "Form Font Color"
+msgstr "رنگ فونت فرم"
+
+#: includes/class-product-recommendation-settings.php:502
+msgid "#fff or #000 or rgba(255,255,255,1)"
+msgstr "#fff یا #000 یا rgba(255,255,255,1)"
+
+#: includes/class-product-recommendation-settings.php:503
+msgid "Enter form font color code."
+msgstr "کد رنگ فونت فرم را وارد کنید."
+
+#: includes/class-product-recommendation-settings.php:507
+msgid "Form Button Color"
+msgstr "رنگ دکمه فرم"
+
+#: includes/class-product-recommendation-settings.php:509
+msgid "#fff or #8c0101 or rgba(140,1,1,1)"
+msgstr "#fff یا #8c0101 یا rgba(140,1,1,1)"
+
+#: includes/class-product-recommendation-settings.php:510
+msgid "Enter form button background color code."
+msgstr "کد رنگ پس‌زمینه دکمه فرم را وارد کنید."
+
+#: includes/class-product-recommendation-settings.php:514
+msgid "Form Button Text Color"
+msgstr "رنگ متن دکمه فرم"
+
+#: includes/class-product-recommendation-settings.php:516
+msgid "#8c0101 or #fff or rgba(140,1,1,1)"
+msgstr "#8c0101 یا #fff یا rgba(140,1,1,1)"
+
+#: includes/class-product-recommendation-settings.php:517
+msgid "Enter form button text color code."
+msgstr "کد رنگ متن دکمه فرم را وارد کنید."
+
+#: includes/class-product-recommendation-settings.php:521
+msgid "Save General Settings"
+msgstr "ذخیره تنظیمات عمومی"
+
+#: includes/class-product-recommendation-settings.php:578
+msgid "Base questions reset to default for this language."
+msgstr "سوالات پایه برای این زبان به پیش‌فرض بازگردانده شده‌اند."
+
+#: includes/class-product-recommendation-settings.php:591
+msgid "Question deleted."
+msgstr "سوال حذف شد."
+
+#: includes/class-product-recommendation-settings.php:602
+#: includes/class-product-recommendation-settings.php:613
+msgid "Question moved."
+msgstr "سوال جابجا شد."
+
+#: includes/class-product-recommendation-settings.php:634
+msgid "Base questions saved."
+msgstr "سوالات پایه ذخیره شد."
+
+#: includes/class-product-recommendation-settings.php:649
+msgid "New question added."
+msgstr "سوال جدید اضافه شد."
+
+#: includes/class-product-recommendation-settings.php:667
+msgid "Select Language for Base Questions"
+msgstr "زبان سوالات پایه را انتخاب کنید"
+
+#: includes/class-product-recommendation-settings.php:668
+#: includes/class-product-recommendation-settings.php:1504
+msgid "Current WordPress Language:"
+msgstr "زبان فعلی وردپرس:"
+
+#: includes/class-product-recommendation-settings.php:669
+#: includes/class-product-recommendation-settings.php:1505
+msgid "Plugin Default Language:"
+msgstr "زبان پیش‌فرض افزونه:"
+
+#: includes/class-product-recommendation-settings.php:674
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: includes/class-product-recommendation-settings.php:678
+msgid ""
+"Select the language to edit base questions for that language. The current "
+"WordPress language is automatically selected."
+msgstr "زبانی را انتخاب کنید که برای آن سوالات پایه را ویرایش کنید. زبان فعلی وردپرس به طور خودکار انتخاب می‌شود."
+
+#: includes/class-product-recommendation-settings.php:699
+#: includes/class-product-recommendation-settings.php:731
+msgid "Question Title"
+msgstr "عنوان سوال"
+
+#: includes/class-product-recommendation-settings.php:703
+#: includes/class-product-recommendation-settings.php:735
+msgid "WooCommerce Attribute"
+msgstr "ویژگی WooCommerce"
+
+#: includes/class-product-recommendation-settings.php:707
+#: includes/class-product-recommendation-settings.php:739
+msgid "Options (one per line)"
+msgstr "گزینه‌ها (یک گزینه در هر خط)"
+
+#: includes/class-product-recommendation-settings.php:712
+msgid "Delete?"
+msgstr "حذف کنید؟"
+
+#: includes/class-product-recommendation-settings.php:712
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/class-product-recommendation-settings.php:714
+msgid "Up"
+msgstr "بالا"
+
+#: includes/class-product-recommendation-settings.php:717
+msgid "Down"
+msgstr "پایین"
+
+#: includes/class-product-recommendation-settings.php:723
+msgid "Save Base Questions"
+msgstr "ذخیره سوالات پایه"
+
+#: includes/class-product-recommendation-settings.php:726
+msgid "Add New Question"
+msgstr "سوال جدید اضافه کنید"
+
+#: includes/class-product-recommendation-settings.php:743
+msgid "Add Question"
+msgstr "سوال اضافه کنید"
+
+#: includes/class-product-recommendation-settings.php:747
+msgid "Reset Base Questions to Default for This Language"
+msgstr "پاسخ‌های سوالات پایه را برای این زبان به پیش‌فرض بازگردانید"
+
+#: includes/class-product-recommendation-settings.php:811
+msgid "Plugin Features (Taxonomy)"
+msgstr "ویژگی‌های افزونه (تکوانیتی)"
+
+#: includes/class-product-recommendation-settings.php:812
+msgid ""
+"In this section, you can manage the options for each feature (taxonomy). "
+"Adding, editing, and removing options is only possible from this section, "
+"and access to WooCommerce's default management for these features is "
+"disabled."
+msgstr "در این بخش، می‌توانید گزینه‌های هر ویژگی (تکوانیتی) را مدیریت کنید. اضافه کردن، ویرایش و حذف گزینه‌ها فقط از این بخش امکان‌پذیر است و دسترسی به مدیریت پیش‌فرض WooCommerce برای این ویژگی‌ها غیرفعال شده است."
+
+#: includes/class-product-recommendation-settings.php:813
+msgid "Feature Name (taxonomy)"
+msgstr "نام ویژگی (تکوانیتی)"
+
+#: includes/class-product-recommendation-settings.php:813
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/class-product-recommendation-settings.php:813
+msgid "Options (terms)"
+msgstr "گزینه‌ها (ترم)"
+
+#: includes/class-product-recommendation-settings.php:844
+msgid "No options"
+msgstr "گزینه‌ای نیست"
+
+#: includes/class-product-recommendation-settings.php:850
+msgid "Add new option..."
+msgstr "گزینه جدید اضافه کنید..."
+
+#: includes/class-product-recommendation-settings.php:851
+msgid "Add"
+msgstr "اضافه کنید"
+
+#: includes/class-product-recommendation-settings.php:857
+msgid "This list only displays features managed by the plugin."
+msgstr "این لیست فقط ویژگی‌های مدیریت شده توسط افزونه را نمایش می‌دهد."
+
+#: includes/class-product-recommendation-settings.php:866
+msgid "New option added."
+msgstr "گزینه جدید اضافه شد."
+
+#: includes/class-product-recommendation-settings.php:868
+msgid "Error:"
+msgstr "خطا:"
+
+#. translators: %s: label, %s: taxonomy
+msgid "Feature '%s' (taxonomy: %s) created successfully."
+msgstr "ویژگی '%s' (تکسانومی: %s) با موفقیت ایجاد شد."
+
+#. translators: %s: term, %s: taxonomy
+msgid "Option '%s' added to feature '%s'."
+msgstr "گزینه '%s' به ویژگی '%s' افزوده شد."
+
+#. translators: %s: term, %s: taxonomy, %s: error
+msgid "Error adding option '%s' to feature '%s': %s"
+msgstr "خطا در افزودن گزینه '%s' به ویژگی '%s': %s"
+
+msgid "Option deleted."
+msgstr "گزینه حذف شد."
+
+msgid "Option updated successfully."
+msgstr "ویرایش گزینه با موفقیت انجام شد."
+
+#: includes/class-product-recommendation-settings.php:1221
+msgid "Afghanistan"
+msgstr "افغانستان"
+
+#: includes/class-product-recommendation-settings.php:1222
+msgid "Tajikistan"
+msgstr "تاجیکستان"
+
+#: includes/class-product-recommendation-settings.php:1237
+msgid "India"
+msgstr "هند"
+
+#: includes/class-product-recommendation-settings.php:1238
+msgid "Pakistan"
+msgstr "پاکستان"
+
+#: includes/class-product-recommendation-settings.php:1239
+#, fuzzy
+msgid "Nigeria"
+msgstr "نیجریه"
+
+#: includes/class-product-recommendation-settings.php:1240
+msgid "Kenya"
+msgstr "کنیا"
+
+#: includes/class-product-recommendation-settings.php:1241
+msgid "Uganda"
+msgstr "اوگاندا"
+
+#: includes/class-product-recommendation-settings.php:1242
+msgid "Tanzania"
+msgstr "تانزانیا"
+
+#: includes/class-product-recommendation-settings.php:1243
+msgid "Zimbabwe"
+msgstr "زیمباوه"
+
+#: includes/class-product-recommendation-settings.php:1244
+msgid "Philippines"
+msgstr "فیلیپین"
+
+#: includes/class-product-recommendation-settings.php:1245
+msgid "Malaysia"
+msgstr "مالزی"
+
+#: includes/class-product-recommendation-settings.php:1316
+msgid "How to Change Language"
+msgstr "نحوه تغییر زبان"
+
+#: includes/class-product-recommendation-settings.php:1317
+msgid "To change the plugin language:"
+msgstr "برای تغییر زبان افزونه:"
+
+#: includes/class-product-recommendation-settings.php:1319
+msgid "Go to WordPress Admin → Settings → General"
+msgstr "به پیشخوان وردپرس → تنظیمات → عمومی بروید"
+
+#: includes/class-product-recommendation-settings.php:1320
+msgid "Change the \"Site Language\" setting to your desired language"
+msgstr "تنظیم \"زبان سایت\" را به زبان مورد نظر خود تغییر دهید"
+
+#: includes/class-product-recommendation-settings.php:1321
+msgid "Save the changes"
+msgstr "تغییرات را ذخیره کنید"
+
+#: includes/class-product-recommendation-settings.php:1322
+msgid "The plugin will automatically adapt to the new language"
+msgstr "افزونه به طور خودکار با زبان جدید سازگار خواهد شد"
+
+#: includes/class-product-recommendation-settings.php:1505
+msgid "Language Information"
+msgstr "اطلاعات زبان"
+
+#: includes/class-product-recommendation-settings.php:1509
+msgid "✓ Languages match - Plugin will use current WordPress language"
+msgstr "✓ زبان‌ها مطابقت دارند - افزونه از زبان فعلی وردپرس استفاده خواهد کرد"
+
+#: includes/class-product-recommendation-settings.php:1511
+msgid ""
+"⚠ Languages differ - Plugin will use WordPress language, but default is "
+"different"
+msgstr "⚠ زبان‌ها متفاوت هستند - افزونه از زبان وردپرس استفاده خواهد کرد، اما پیش‌فرض متفاوت است"
+
+#: includes/class-product-recommendation-settings.php:1514
+msgid "Update Plugin Default Language to Match WordPress"
+msgstr "بروزرسانی زبان پیش‌فرض افزونه برای مطابقت با وردپرس"
+
+#: includes/class-product-recommendation.php:218
+#: includes/class-product-recommendation.php:219
+#: includes/class-product-recommendation.php:317
+msgid "Product Recommendation System"
+msgstr "سیستم توصیه محصول"
+
+#: includes/class-product-recommendation.php:229
+#: includes/class-product-recommendation.php:230
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-product-recommendation.php:249
+msgid "Product Characteristics"
+msgstr "ویژگی‌های محصول"
+
+#: includes/class-product-recommendation.php:319
+msgid "Usage Guide"
+msgstr "راهنمای استفاده"
+
+#: includes/class-product-recommendation.php:320
+msgid ""
+"To add a product recommendation form to any page or post, use the following "
+"shortcode:"
+msgstr "برای افزودن فرم توصیه محصول به هر صفحه یا پست، از شورت‌کد زیر استفاده کنید:"
+
+#: includes/class-product-recommendation.php:322
+msgid "How to configure products for recommendations"
+msgstr "نحوه پیکربندی محصولات برای توصیه‌ها"
+
+#: includes/class-product-recommendation.php:323
+msgid "To enable a product in the product recommendation system:"
+msgstr "برای فعال‌سازی محصول در سیستم توصیه محصول:"
+
+#: includes/class-product-recommendation.php:325
+msgid "Create a new product in WooCommerce."
+msgstr "یک محصول جدید در WooCommerce ایجاد کنید."
+
+#: includes/class-product-recommendation.php:326
+msgid "In the Product Characteristics section, select appropriate values."
+msgstr "در بخش ویژگی‌های محصول، مقادیر مناسب را انتخاب کنید."
+
+#: includes/class-product-recommendation.php:327
+#: includes/class-product-recommendation.php:372
+msgid "Publish the product."
+msgstr "محصول را منتشر کنید."
+
+#: includes/class-product-recommendation.php:329
+msgid ""
+"Form questions and their options are editable from the plugin settings "
+"section."
+msgstr "سوالات فرم و گزینه‌های آن‌ها از بخش تنظیمات افزونه قابل ویرایش هستند."
+
+#: includes/class-product-recommendation.php:340
+msgid ""
+"Don't forget to set the product characteristics for this product to enable "
+"it in the recommendation system."
+msgstr "فراموش نکنید که ویژگی‌های محصول را برای این محصول تنظیم کنید تا در سیستم توصیه فعال شود."
+
+#: includes/class-product-recommendation.php:353
+msgid "Product Recommendation System Guide"
+msgstr "راهنمای سیستم توصیه محصول"
+
+#: includes/class-product-recommendation.php:355
+msgid "How to Use the System"
+msgstr "نحوه استفاده از سیستم"
+
+#: includes/class-product-recommendation.php:356
+msgid ""
+"The product recommendation system allows you to suggest appropriate products "
+"based on user characteristics."
+msgstr "سیستم توصیه محصول به شما امکان می‌دهد تا بر اساس ویژگی‌های کاربر، محصولات مناسب را پیشنهاد دهید."
+
+#: includes/class-product-recommendation.php:358
+msgid "Setup Steps:"
+msgstr "مراحل راه‌اندازی:"
+
+#: includes/class-product-recommendation.php:360
+msgid "Enable Plugin:"
+msgstr "فعال‌سازی افزونه:"
+
+#: includes/class-product-recommendation.php:360
+msgid "Activate the plugin in WordPress."
+msgstr "افزونه را در وردپرس فعال کنید."
+
+#: includes/class-product-recommendation.php:361
+#: includes/class-product-recommendation.php:366
+msgid "Configure Products:"
+msgstr "پیکربندی محصولات:"
+
+#: includes/class-product-recommendation.php:361
+msgid ""
+"For each product, set appropriate characteristics in the 'Product "
+"Characteristics' section."
+msgstr "برای هر محصول، ویژگی‌های مناسب را در بخش 'ویژگی‌های محصول' تنظیم کنید."
+
+#: includes/class-product-recommendation.php:362
+msgid "Add Form:"
+msgstr "افزودن فرم:"
+
+#: includes/class-product-recommendation.php:362
+msgid ""
+"Place the shortcode [product_recommendation_form] on the desired page or "
+"post."
+msgstr "شورت‌کد [product_recommendation_form] را در صفحه یا پست مورد نظر قرار دهید."
+
+#: includes/class-product-recommendation.php:363
+msgid "Customize:"
+msgstr "شخصی‌سازی:"
+
+#: includes/class-product-recommendation.php:363
+msgid "Personalize the form appearance from the settings section."
+msgstr "ظاهر فرم را از بخش تنظیمات شخصی‌سازی کنید."
+
+#: includes/class-product-recommendation.php:367
+msgid "To enable a product in the recommendation system:"
+msgstr "برای فعال‌سازی محصول در سیستم توصیه:"
+
+#: includes/class-product-recommendation.php:369
+msgid "Go to the WooCommerce products section."
+msgstr "به بخش محصولات WooCommerce بروید."
+
+#: includes/class-product-recommendation.php:370
+msgid "Edit the desired product."
+msgstr "محصول مورد نظر را ویرایش کنید."
+
+#: includes/class-product-recommendation.php:371
+msgid "In the 'Product Characteristics' section, select appropriate values."
+msgstr "در بخش 'ویژگی‌های محصول'، مقادیر مناسب را انتخاب کنید."
+
+#: includes/class-product-recommendation.php:375
+msgid "Shortcodes:"
+msgstr "شورت‌کدها:"
+
+#: includes/class-product-recommendation.php:377
+msgid "Product recommendation form"
+msgstr "فرم توصیه محصول"
+
+#: includes/class-product-recommendation.php:380
+msgid "Support:"
+msgstr "پشتیبانی:"
+
+#: includes/class-product-recommendation.php:381
+msgid "For support or to report issues, contact the development team."
+msgstr "برای پشتیبانی یا گزارش مشکلات، با تیم توسعه تماس بگیرید."
+
+#: includes/class-product-recommendation.php:503
+msgid "No answers provided."
+msgstr "پاسخی ارائه نشده است."
+
+#: includes/class-product-recommendation.php:515
+msgid "Here are your recommended products:"
+msgstr "محصولات توصیه شده شما:"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Translation Debug"
+msgstr "دیباگ ترجمه"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Translation Debug Information"
+msgstr "اطلاعات دیباگ ترجمه"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Available Translation Files"
+msgstr "فایل‌های ترجمه موجود"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "No .mo files found."
+msgstr "هیچ فایل .mo یافت نشد."

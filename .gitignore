@@ -1,0 +1,196 @@
+# WordPress Plugin Development
+# ===========================
+
+# Operating System Files
+# ----------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# Development and Build Files
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+composer.lock
+vendor/
+build/
+dist/
+*.log
+
+# WordPress Specific
+# ------------------
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/mu-plugins/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Plugin Development
+# ------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.backup
+*.old
+*.tmp
+*.temp
+
+# Testing and Debug
+# ------------------
+phpunit.xml
+.phpunit.result.cache
+coverage/
+tests/coverage/
+*.test.php
+*.spec.php
+debug.log
+error_log
+
+# Environment Files
+# -----------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+wp-config-local.php
+
+# Backup Files
+# ------------
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.tmp
+*.temp
+
+# Cache and Temporary Files
+# -------------------------
+cache/
+tmp/
+temp/
+*.cache
+*.tmp
+
+# Documentation Build
+# -------------------
+docs/_build/
+docs/build/
+site/
+
+# OS Generated Files
+# ------------------
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Windows
+# --------
+*.lnk
+
+# Linux
+# ------
+*~
+
+# macOS
+# ------
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+# -----------
+._*
+
+# Files that might appear in the root of a volume
+# ----------------------------------------------
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+# --------------------------------------------------
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# WordPress Plugin Specific
+# -------------------------
+# Exclude any development files that shouldn't be in production
+dev/
+development/
+test/
+testing/
+demo/
+example/
+
+# Exclude any sensitive configuration files
+config.php
+database.php
+secrets.php
+
+# Exclude any large media files that shouldn't be in repo
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+*.m4v
+*.3gp
+*.ogv
+
+# Exclude any backup files
+*.sql
+*.sql.gz
+*.sql.bak
+*.sql.backup
+
+# Exclude any log files
+*.log
+logs/
+error_log
+access_log
+
+# Exclude any temporary files
+temp/
+tmp/
+cache/ 

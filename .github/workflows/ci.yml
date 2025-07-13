@@ -1,0 +1,353 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  release:
+    types: [ published ]
+
+jobs:
+  # Code Quality Checks
+  code-quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        extensions: mbstring, xml, curl, zip
+        coverage: none
+        
+    - name: Install dependencies
+      run: |
+        composer install --no-dev --optimize-autoloader
+        
+    - name: PHP Syntax Check
+      run: |
+        find . -name "*.php" -not -path "./vendor/*" -not -path "./node_modules/*" -exec php -l {} \;
+        
+    - name: WordPress Coding Standards
+      run: |
+        composer require --dev wp-coding-standards/wpcs
+        ./vendor/bin/phpcs --standard=WordPress --extensions=php --ignore=vendor/,node_modules/ .
+        
+    - name: Security Check
+      run: |
+        composer require --dev phpcs-security-audit/phpcs-security-audit
+        ./vendor/bin/phpcs --standard=Security --extensions=php --ignore=vendor/,node_modules/ .
+        
+    - name: PHPStan Analysis
+      run: |
+        composer require --dev phpstan/phpstan
+        ./vendor/bin/phpstan analyse --level=5 --memory-limit=2G
+
+  # WordPress Plugin Testing
+  wordpress-test:
+    name: WordPress Plugin Test
+    runs-on: ubuntu-latest
+    
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: wordpress_test
+        options: >-
+          --health-cmd "mysqladmin ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 3306:3306
+          
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        extensions: mbstring, xml, curl, zip, mysql
+        coverage: none
+        
+    - name: Setup WordPress
+      run: |
+        wp core download --path=wordpress --version=latest
+        wp config create --path=wordpress --dbname=wordpress_test --dbuser=root --dbpass=root --dbhost=127.0.0.1:3306
+        wp core install --path=wordpress --url=localhost --title="Test Site" --admin_user=admin --admin_password=admin --admin_email=test@example.com --skip-email
+        
+    - name: Install WooCommerce
+      run: |
+        wp plugin install woocommerce --activate --path=wordpress
+        
+    - name: Install Plugin
+      run: |
+        cp -r . wordpress/wp-content/plugins/product-recommendation/
+        wp plugin activate product-recommendation --path=wordpress
+        
+    - name: Run Plugin Tests
+      run: |
+        wp eval --path=wordpress '
+        // Test plugin activation
+        if (is_plugin_active("product-recommendation/product-recommendation.php")) {
+            echo "Plugin activated successfully\n";
+        } else {
+            echo "Plugin activation failed\n";
+            exit(1);
+        }
+        
+        // Test shortcode
+        $shortcode_output = do_shortcode("[product_recommendation_form]");
+        if (!empty($shortcode_output)) {
+            echo "Shortcode working\n";
+        } else {
+            echo "Shortcode not working\n";
+        }
+        
+        // Test settings page
+        if (function_exists("product_recommendation_settings_page")) {
+            echo "Settings page accessible\n";
+        } else {
+            echo "Settings page not accessible\n";
+        }
+        '
+
+  # Browser Testing
+  browser-test:
+    name: Browser Test
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        extensions: mbstring, xml, curl, zip
+        
+    - name: Start PHP Server
+      run: |
+        php -S localhost:8000 -t . &
+        sleep 5
+        
+    - name: Run Browser Tests
+      run: |
+        # Install Playwright
+        npm init -y
+        npm install playwright
+        
+        # Create test script
+        cat > test.js << 'EOF'
+        const { chromium } = require('playwright');
+        
+        (async () => {
+          const browser = await chromium.launch();
+          const page = await browser.newPage();
+          
+          try {
+            await page.goto('http://localhost:8000');
+            console.log('Page loaded successfully');
+            
+            // Check for JavaScript errors
+            const errors = await page.evaluate(() => {
+              return window.console.errors || [];
+            });
+            
+            if (errors.length === 0) {
+              console.log('No JavaScript errors found');
+            } else {
+              console.log('JavaScript errors found:', errors);
+            }
+            
+          } catch (error) {
+            console.error('Test failed:', error);
+            process.exit(1);
+          } finally {
+            await browser.close();
+          }
+        })();
+        EOF
+        
+        node test.js
+
+  # Build and Package
+  build:
+    name: Build Package
+    runs-on: ubuntu-latest
+    needs: [code-quality, wordpress-test]
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        
+    - name: Create Release Package
+      run: |
+        # Create build directory
+        mkdir -p build
+        
+        # Copy plugin files
+        cp -r includes/ build/
+        cp -r assets/ build/
+        cp -r languages/ build/
+        cp *.php build/
+        cp *.txt build/
+        cp *.md build/
+        
+        # Create ZIP file
+        cd build
+        zip -r ../product-recommendation.zip .
+        cd ..
+        
+        # Create version info
+        echo "Version: $(grep 'Version:' product-recommendation.php | cut -d':' -f2 | tr -d ' ')" > version.txt
+        echo "Build Date: $(date)" >> version.txt
+        echo "Commit: ${{ github.sha }}" >> version.txt
+        
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: product-recommendation-build
+        path: |
+          product-recommendation.zip
+          version.txt
+
+  # Security Scan
+  security:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Run Bandit Security Scan
+      run: |
+        pip install bandit
+        bandit -r . -f json -o bandit-report.json || true
+        
+    - name: Run Safety Check
+      run: |
+        pip install safety
+        safety check --json --output safety-report.json || true
+        
+    - name: Upload Security Reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: security-reports
+        path: |
+          bandit-report.json
+          safety-report.json
+
+  # Deploy to WordPress.org (Manual)
+  deploy-wordpress-org:
+    name: Deploy to WordPress.org
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release' && github.event.action == 'published'
+    
+    steps:
+    - name: Download Build Artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: product-recommendation-build
+        
+    - name: Deploy to WordPress.org
+      run: |
+        # This would require WordPress.org SVN credentials
+        # svn co https://plugins.svn.wordpress.org/product-recommendation/
+        # cp product-recommendation.zip product-recommendation/trunk/
+        # svn add product-recommendation/trunk/*
+        # svn commit -m "Release ${{ github.event.release.tag_name }}"
+        echo "Deployment to WordPress.org would happen here"
+
+  # Deploy to GitHub Releases
+  deploy-github:
+    name: Deploy to GitHub Releases
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release' && github.event.action == 'published'
+    
+    steps:
+    - name: Download Build Artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: product-recommendation-build
+        
+    - name: Create GitHub Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.event.release.tag_name }}
+        release_name: ${{ github.event.release.name }}
+        body: ${{ github.event.release.body }}
+        draft: false
+        prerelease: false
+        
+    - name: Upload Release Assets
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./product-recommendation.zip
+        asset_name: product-recommendation.zip
+        asset_content_type: application/zip
+
+  # Notifications
+  notify:
+    name: Notify Team
+    runs-on: ubuntu-latest
+    needs: [build, security]
+    if: always()
+    
+    steps:
+    - name: Notify on Success
+      if: success()
+      run: |
+        echo "✅ All checks passed successfully!"
+        echo "Build completed for commit: ${{ github.sha }}"
+        
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        echo "❌ Some checks failed!"
+        echo "Please check the logs for details."
+        echo "Commit: ${{ github.sha }}"
+        
+    - name: Send Email Notification
+      if: failure()
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: smtp.gmail.com
+        server_port: 587
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        subject: "Product Recommendation System - Build Failed"
+        to: ${{ secrets.NOTIFICATION_EMAIL }}
+        from: "CI/CD Pipeline"
+        body: |
+          Build failed for commit: ${{ github.sha }}
+          
+          Check the logs at: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+# Environment Variables
+env:
+  WORDPRESS_DB_HOST: localhost:3306
+  WORDPRESS_DB_NAME: wordpress_test
+  WORDPRESS_DB_USER: root
+  WORDPRESS_DB_PASSWORD: root
+  WORDPRESS_TABLE_PREFIX: wp_ 

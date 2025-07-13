@@ -1,0 +1,1758 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Recommendation System 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-13 15:10+0100\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: Mohammad Nasser Haji Hashemabad <info@mohammadnasser.com>\n"
+"Language-Team: Chinese <info@mohammadnasser.com>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: includes/class-product-form.php:64
+#: includes/class-product-recommendation-activator.php:127
+#: includes/class-product-recommendation-frontend.php:88
+#: includes/class-product-recommendation-settings.php:140
+#: includes/class-product-recommendation.php:631
+#, fuzzy
+msgid "What type of product are you looking for?"
+msgstr "您想要什么类型的产品？"
+
+#: includes/class-product-form.php:67
+#: includes/class-product-recommendation-activator.php:130
+#: includes/class-product-recommendation-frontend.php:91
+#: includes/class-product-recommendation-settings.php:143
+#: includes/class-product-recommendation.php:634
+msgid "Clothing"
+msgstr "服装"
+
+#: includes/class-product-form.php:68
+#: includes/class-product-recommendation-activator.php:131
+#: includes/class-product-recommendation-frontend.php:92
+#: includes/class-product-recommendation-settings.php:144
+#: includes/class-product-recommendation.php:635
+#, fuzzy
+msgid "Digital Accessories"
+msgstr "数码电子"
+
+#: includes/class-product-form.php:69
+#: includes/class-product-recommendation-activator.php:132
+#: includes/class-product-recommendation-frontend.php:93
+#: includes/class-product-recommendation-settings.php:145
+#: includes/class-product-recommendation.php:636
+msgid "Home Appliances"
+msgstr "家用电器"
+
+#: includes/class-product-form.php:70
+#: includes/class-product-recommendation-activator.php:133
+#: includes/class-product-recommendation-frontend.php:94
+#: includes/class-product-recommendation-settings.php:146
+#: includes/class-product-recommendation.php:637
+msgid "Beauty & Health"
+msgstr "美容健康"
+
+#: includes/class-product-form.php:71
+#: includes/class-product-recommendation-activator.php:134
+#: includes/class-product-recommendation-frontend.php:95
+#: includes/class-product-recommendation-settings.php:147
+#: includes/class-product-recommendation.php:638
+msgid "Books"
+msgstr "书籍"
+
+#: includes/class-product-form.php:72
+#: includes/class-product-recommendation-activator.php:135
+#: includes/class-product-recommendation-frontend.php:96
+#: includes/class-product-recommendation-settings.php:148
+#: includes/class-product-recommendation.php:639
+msgid "Other"
+msgstr "其他"
+
+#: includes/class-product-form.php:76
+#: includes/class-product-recommendation-activator.php:139
+#: includes/class-product-recommendation-frontend.php:100
+#: includes/class-product-recommendation-settings.php:152
+#: includes/class-product-recommendation.php:643
+#, fuzzy
+msgid "What is your preferred price range?"
+msgstr "您的价格范围是多少？"
+
+#: includes/class-product-form.php:79
+#: includes/class-product-recommendation-activator.php:142
+#: includes/class-product-recommendation-frontend.php:103
+#: includes/class-product-recommendation-settings.php:155
+#: includes/class-product-recommendation.php:646
+msgid "Less than 500 thousand Tomans"
+msgstr "低于500元"
+
+#: includes/class-product-form.php:80
+#: includes/class-product-recommendation-activator.php:143
+#: includes/class-product-recommendation-frontend.php:104
+#: includes/class-product-recommendation-settings.php:156
+#: includes/class-product-recommendation.php:647
+msgid "500 thousand to 2 million Tomans"
+msgstr "500元到2000元"
+
+#: includes/class-product-form.php:81
+#: includes/class-product-recommendation-activator.php:144
+#: includes/class-product-recommendation-frontend.php:105
+#: includes/class-product-recommendation-settings.php:157
+#: includes/class-product-recommendation.php:648
+msgid "More than 2 million Tomans"
+msgstr "高于2000元"
+
+#: includes/class-product-form.php:85
+#: includes/class-product-recommendation-activator.php:148
+#: includes/class-product-recommendation-frontend.php:109
+#: includes/class-product-recommendation-settings.php:161
+#: includes/class-product-recommendation.php:652
+msgid "Who is this product for?"
+msgstr "这个产品是为谁准备的？"
+
+#: includes/class-product-form.php:88
+#: includes/class-product-recommendation-activator.php:151
+#: includes/class-product-recommendation-frontend.php:112
+#: includes/class-product-recommendation-settings.php:164
+#: includes/class-product-recommendation.php:655
+msgid "Myself"
+msgstr "我自己"
+
+#: includes/class-product-form.php:89
+#: includes/class-product-recommendation-activator.php:152
+#: includes/class-product-recommendation-frontend.php:113
+#: includes/class-product-recommendation-settings.php:165
+#: includes/class-product-recommendation.php:656
+#, fuzzy
+msgid "Family members"
+msgstr "家庭成员"
+
+#: includes/class-product-form.php:90
+#: includes/class-product-recommendation-activator.php:153
+#: includes/class-product-recommendation-frontend.php:114
+#: includes/class-product-recommendation-settings.php:166
+#: includes/class-product-recommendation.php:657
+#, fuzzy
+msgid "Gift for friend"
+msgstr "朋友礼物"
+
+#: includes/class-product-form.php:91
+#: includes/class-product-recommendation-activator.php:154
+#: includes/class-product-recommendation-frontend.php:115
+#: includes/class-product-recommendation-settings.php:167
+#: includes/class-product-recommendation.php:658
+msgid "Child"
+msgstr "儿童"
+
+#: includes/class-product-form.php:92
+#: includes/class-product-recommendation-activator.php:155
+#: includes/class-product-recommendation-frontend.php:116
+#: includes/class-product-recommendation-settings.php:168
+#: includes/class-product-recommendation.php:659
+msgid "Teenager"
+msgstr "青少年"
+
+#: includes/class-product-form.php:93
+#: includes/class-product-recommendation-activator.php:156
+#: includes/class-product-recommendation-frontend.php:117
+#: includes/class-product-recommendation-settings.php:169
+#: includes/class-product-recommendation.php:660
+msgid "Adult"
+msgstr "成人"
+
+#: includes/class-product-form.php:97
+#: includes/class-product-recommendation-activator.php:160
+#: includes/class-product-recommendation-frontend.php:121
+#: includes/class-product-recommendation-settings.php:173
+#: includes/class-product-recommendation.php:664
+msgid "What style and color do you prefer?"
+msgstr "您喜欢什么风格和颜色？"
+
+#: includes/class-product-form.php:100
+#: includes/class-product-recommendation-activator.php:163
+#: includes/class-product-recommendation-frontend.php:124
+#: includes/class-product-recommendation-settings.php:176
+#: includes/class-product-recommendation.php:667
+#, fuzzy
+msgid "Light colors"
+msgstr "浅色"
+
+#: includes/class-product-form.php:101
+#: includes/class-product-recommendation-activator.php:164
+#: includes/class-product-recommendation-frontend.php:125
+#: includes/class-product-recommendation-settings.php:177
+#: includes/class-product-recommendation.php:668
+#, fuzzy
+msgid "Dark colors"
+msgstr "深色"
+
+#: includes/class-product-form.php:102
+#: includes/class-product-recommendation-activator.php:165
+#: includes/class-product-recommendation-frontend.php:126
+#: includes/class-product-recommendation-settings.php:178
+#: includes/class-product-recommendation.php:669
+msgid "Classic"
+msgstr "经典"
+
+#: includes/class-product-form.php:103
+#: includes/class-product-recommendation-activator.php:166
+#: includes/class-product-recommendation-frontend.php:127
+#: includes/class-product-recommendation-settings.php:179
+#: includes/class-product-recommendation.php:670
+msgid "Modern"
+msgstr "现代"
+
+#: includes/class-product-form.php:104
+#: includes/class-product-recommendation-activator.php:167
+#: includes/class-product-recommendation-frontend.php:128
+#: includes/class-product-recommendation-settings.php:180
+#: includes/class-product-recommendation.php:671
+#, fuzzy
+msgid "Sporty"
+msgstr "运动"
+
+#: includes/class-product-form.php:108
+#: includes/class-product-recommendation-activator.php:171
+#: includes/class-product-recommendation-frontend.php:132
+#: includes/class-product-recommendation-settings.php:184
+#: includes/class-product-recommendation.php:675
+#, fuzzy
+msgid "What is this product for?"
+msgstr "这个产品是为谁准备的？"
+
+#: includes/class-product-form.php:111
+#: includes/class-product-recommendation-activator.php:174
+#: includes/class-product-recommendation-frontend.php:135
+#: includes/class-product-recommendation-settings.php:187
+#: includes/class-product-recommendation.php:678
+#, fuzzy
+msgid "Daily use"
+msgstr "日常使用"
+
+#: includes/class-product-form.php:112
+#: includes/class-product-recommendation-activator.php:175
+#: includes/class-product-recommendation-frontend.php:136
+#: includes/class-product-recommendation-settings.php:188
+#: includes/class-product-recommendation.php:679
+msgid "Party"
+msgstr "聚会"
+
+#: includes/class-product-form.php:113
+#: includes/class-product-recommendation-activator.php:176
+#: includes/class-product-recommendation-frontend.php:137
+#: includes/class-product-recommendation-settings.php:189
+#: includes/class-product-recommendation.php:680
+#, fuzzy
+msgid "Workplace"
+msgstr "工作"
+
+#: includes/class-product-form.php:114
+#: includes/class-product-recommendation-activator.php:177
+#: includes/class-product-recommendation-frontend.php:138
+#: includes/class-product-recommendation-settings.php:190
+#: includes/class-product-recommendation.php:681
+msgid "Travel"
+msgstr "旅行"
+
+#: includes/class-product-form.php:115
+#: includes/class-product-recommendation-activator.php:178
+#: includes/class-product-recommendation-frontend.php:139
+#: includes/class-product-recommendation-settings.php:191
+#: includes/class-product-recommendation.php:682
+#, fuzzy
+msgid "Sports"
+msgstr "运动"
+
+#: includes/class-product-form.php:119
+#: includes/class-product-recommendation-activator.php:182
+#: includes/class-product-recommendation-frontend.php:143
+#: includes/class-product-recommendation-settings.php:195
+#: includes/class-product-recommendation.php:686
+msgid "What special feature are you looking for?"
+msgstr "您在寻找什么特殊功能？"
+
+#: includes/class-product-form.php:122
+#: includes/class-product-recommendation-activator.php:185
+#: includes/class-product-recommendation-frontend.php:146
+#: includes/class-product-recommendation-settings.php:198
+#: includes/class-product-recommendation.php:689
+msgid "High build quality"
+msgstr ""
+
+#: includes/class-product-form.php:123
+#: includes/class-product-recommendation-activator.php:186
+#: includes/class-product-recommendation-frontend.php:147
+#: includes/class-product-recommendation-settings.php:199
+#: includes/class-product-recommendation.php:690
+#, fuzzy
+msgid "Reputable brand"
+msgstr "知名品牌"
+
+#: includes/class-product-form.php:124
+#: includes/class-product-recommendation-activator.php:187
+#: includes/class-product-recommendation-frontend.php:148
+#: includes/class-product-recommendation-settings.php:200
+#: includes/class-product-recommendation.php:691
+#, fuzzy
+msgid "Low energy consumption"
+msgstr "低能耗"
+
+#: includes/class-product-form.php:125
+#: includes/class-product-recommendation-activator.php:188
+#: includes/class-product-recommendation-frontend.php:149
+#: includes/class-product-recommendation-settings.php:201
+#: includes/class-product-recommendation.php:692
+#, fuzzy
+msgid "Portability"
+msgstr "便携"
+
+#: includes/class-product-form.php:126
+#: includes/class-product-recommendation-activator.php:189
+#: includes/class-product-recommendation-frontend.php:150
+#: includes/class-product-recommendation-settings.php:202
+#: includes/class-product-recommendation.php:693
+msgid "Multi-functionality"
+msgstr ""
+
+#: includes/class-product-form.php:276
+msgid ""
+"No options defined for this question. Please add options from WooCommerce "
+"attributes or plugin settings."
+msgstr ""
+
+#: includes/class-product-form.php:285
+#: includes/class-product-recommendation-frontend.php:279
+#: includes/class-product-recommendation.php:471
+msgid "Previous"
+msgstr "上一步"
+
+#: includes/class-product-form.php:288
+#: includes/class-product-recommendation-frontend.php:280
+#: includes/class-product-recommendation.php:472
+msgid "Next"
+msgstr "下一步"
+
+#: includes/class-product-form.php:290
+#: includes/class-product-recommendation-frontend.php:281
+#: includes/class-product-recommendation.php:473
+#, fuzzy
+msgid "Get Recommendations"
+msgstr "产品推荐系统"
+
+#: includes/class-product-form.php:377
+#, fuzzy
+msgid "Recommended products for you:"
+msgstr "推荐产品"
+
+#: includes/class-product-form.php:425
+#: includes/class-product-recommendation-frontend.php:192
+#: includes/class-product-recommendation.php:209
+msgid "View Details"
+msgstr "查看详情"
+
+#: includes/class-product-form.php:426
+#: includes/class-product-recommendation-frontend.php:193
+#: includes/class-product-recommendation.php:210
+msgid "Add to Cart"
+msgstr "添加到购物车"
+
+#: includes/class-product-recommendation-activator.php:208
+msgid "Product Category"
+msgstr "产品类别"
+
+#: includes/class-product-recommendation-activator.php:209
+msgid "Price Range"
+msgstr "价格范围"
+
+#: includes/class-product-recommendation-activator.php:210
+#, fuzzy
+msgid "Product Target"
+msgstr "产品类别"
+
+#: includes/class-product-recommendation-activator.php:211
+msgid "Style and Color"
+msgstr ""
+
+#: includes/class-product-recommendation-activator.php:212
+#, fuzzy
+msgid "Product Usage"
+msgstr "产品类别"
+
+#: includes/class-product-recommendation-activator.php:213
+msgid "Special Feature"
+msgstr "特殊功能"
+
+#: includes/class-product-recommendation-ajax.php:59
+#: includes/class-product-recommendation-ajax.php:125
+#: includes/class-product-recommendation-ajax.php:217
+msgid "This is a sample product"
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:59
+#: includes/class-product-recommendation-ajax.php:217
+msgid "Please add real products to the store."
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:62
+#: includes/class-product-recommendation-ajax.php:76
+#: includes/class-product-recommendation-ajax.php:220
+#: includes/class-product-recommendation-ajax.php:234
+msgid "Contact for price"
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:102
+msgid "Error processing request:"
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:124
+#, fuzzy
+msgid "Sample Product"
+msgstr "保存产品"
+
+#: includes/class-product-recommendation-frontend.php:189
+#: includes/class-product-recommendation.php:206
+msgid "Loading..."
+msgstr "加载中..."
+
+#: includes/class-product-recommendation-frontend.php:190
+#: includes/class-product-recommendation.php:207
+msgid "An error occurred. Please try again."
+msgstr "发生错误。请重试。"
+
+#: includes/class-product-recommendation-frontend.php:191
+#: includes/class-product-recommendation.php:208
+#: includes/class-product-recommendation.php:510
+msgid "No products found matching your criteria."
+msgstr "未找到符合您条件的产品。"
+
+#: includes/class-product-recommendation-frontend.php:207
+#: includes/class-product-recommendation-settings.php:273
+#: includes/class-product-recommendation.php:399
+#, fuzzy
+msgid "Product Recommendation"
+msgstr "产品推荐系统"
+
+#: includes/class-product-recommendation-frontend.php:208
+#: includes/class-product-recommendation.php:400
+msgid ""
+"Please answer a few short questions so we can recommend the right product "
+"for you"
+msgstr ""
+
+#: includes/class-product-recommendation-frontend.php:226
+#: includes/class-product-recommendation.php:418
+#, fuzzy
+msgid "Category"
+msgstr "产品类别"
+
+#: includes/class-product-recommendation-frontend.php:229
+#: includes/class-product-recommendation.php:421
+#, fuzzy
+msgid "Price"
+msgstr "价格范围"
+
+#: includes/class-product-recommendation-frontend.php:232
+#: includes/class-product-recommendation.php:424
+msgid "Target"
+msgstr ""
+
+#: includes/class-product-recommendation-frontend.php:235
+#: includes/class-product-recommendation.php:427
+msgid "Style"
+msgstr "风格"
+
+#: includes/class-product-recommendation-frontend.php:238
+#: includes/class-product-recommendation.php:430
+msgid "Usage"
+msgstr "用途"
+
+#: includes/class-product-recommendation-frontend.php:241
+#: includes/class-product-recommendation.php:433
+#, fuzzy
+msgid "Feature"
+msgstr "特殊功能"
+
+#: includes/class-product-recommendation-frontend.php:288
+#: includes/class-product-recommendation.php:480
+#, fuzzy
+msgid "Processing..."
+msgstr "加载中..."
+
+#: includes/class-product-recommendation-settings.php:241
+#, fuzzy
+msgid ""
+"Plugin feature management is only done through this page. Plugin-related "
+"links have been removed from other dashboard sections."
+msgstr ""
+"插件功能管理仅可通过此页面进行。与插件相关的链接已从其他仪表板部分中移除。"
+
+#: includes/class-product-recommendation-settings.php:246
+msgid ""
+"Plugin default language has been updated to match the current WordPress "
+"language."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:275
+#: includes/class-product-recommendation.php:238
+#: includes/class-product-recommendation.php:239
+msgid "Guide"
+msgstr "指南"
+
+#: includes/class-product-recommendation-settings.php:276
+msgid "General Settings"
+msgstr "常规设置"
+
+#: includes/class-product-recommendation-settings.php:277
+msgid "Base Questions"
+msgstr "基础问题"
+
+#: includes/class-product-recommendation-settings.php:278
+msgid "Plugin Features"
+msgstr "插件功能"
+
+#: includes/class-product-recommendation-settings.php:279
+msgid "Language Support"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:283
+msgid "Complete Guide to Using the Product Recommendation Plugin"
+msgstr "产品推荐插件完整使用指南"
+
+#: includes/class-product-recommendation-settings.php:285
+msgid "Step 1: Configure Base Questions"
+msgstr "步骤1：配置基础问题"
+
+#: includes/class-product-recommendation-settings.php:287
+msgid "Go to the Base Questions tab"
+msgstr "转到基础问题选项卡"
+
+#: includes/class-product-recommendation-settings.php:288
+msgid ""
+"Review the default questions (product category, price range, target "
+"audience, style, usage, special feature)"
+msgstr "查看默认问题（产品类别、价格范围、目标受众、风格、用途、特殊功能）"
+
+#: includes/class-product-recommendation-settings.php:289
+msgid "Edit question titles if needed"
+msgstr "如有需要，编辑问题标题"
+
+#: includes/class-product-recommendation-settings.php:290
+msgid ""
+"Enter options for each question in the relevant section (one option per line)"
+msgstr "在相关部分为每个问题输入选项（每行一个选项）"
+
+#: includes/class-product-recommendation-settings.php:291
+msgid "To add a new question, use the 'Add New Question' section"
+msgstr "要添加新问题，请使用'添加新问题'部分"
+
+#: includes/class-product-recommendation-settings.php:292
+msgid "Click the Save Base Questions button"
+msgstr "点击保存基础问题按钮"
+
+#: includes/class-product-recommendation-settings.php:295
+msgid "Step 2: Customize Form Appearance"
+msgstr "步骤2：自定义表单外观"
+
+#: includes/class-product-recommendation-settings.php:297
+msgid "Go to the General Settings tab"
+msgstr "转到常规设置选项卡"
+
+#: includes/class-product-recommendation-settings.php:298
+msgid "Check that the plugin is enabled (should be checked)"
+msgstr "检查插件是否已启用（应该已勾选）"
+
+#: includes/class-product-recommendation-settings.php:299
+msgid "Enter a custom message if needed"
+msgstr "如有需要，输入自定义消息"
+
+#: includes/class-product-recommendation-settings.php:300
+msgid "Set the primary plugin color (example: #8c0101)"
+msgstr "设置插件主色调（示例：#8c0101）"
+
+#: includes/class-product-recommendation-settings.php:301
+msgid "Choose the form font color (example: #fff for white)"
+msgstr "选择表单字体颜色（示例：#fff表示白色）"
+
+#: includes/class-product-recommendation-settings.php:302
+msgid "Set button colors and button text colors"
+msgstr "设置按钮颜色和按钮文字颜色"
+
+#: includes/class-product-recommendation-settings.php:303
+msgid "Click the Save General Settings button"
+msgstr "点击保存常规设置按钮"
+
+#: includes/class-product-recommendation-settings.php:306
+msgid "Step 3: Manage Product Characteristics"
+msgstr "步骤3：管理产品特征"
+
+#: includes/class-product-recommendation-settings.php:308
+msgid "Go to the Plugin Features tab"
+msgstr "转到插件功能选项卡"
+
+#: includes/class-product-recommendation-settings.php:309
+msgid "View the list of all available characteristics"
+msgstr "查看所有可用特征列表"
+
+#: includes/class-product-recommendation-settings.php:310
+msgid "For each characteristic, review the available options"
+msgstr "对于每个特征，查看可用选项"
+
+#: includes/class-product-recommendation-settings.php:311
+msgid "Add new options if needed"
+msgstr "如有需要，添加新选项"
+
+#: includes/class-product-recommendation-settings.php:312
+msgid "Remove unnecessary options"
+msgstr "移除不必要的选项"
+
+#: includes/class-product-recommendation-settings.php:313
+msgid "Or use separate submenus to manage each characteristic:"
+msgstr "或使用单独的子菜单管理每个特征："
+
+#: includes/class-product-recommendation-settings.php:315
+#, fuzzy
+msgid "Product Characteristics:"
+msgstr "产品特征"
+
+#: includes/class-product-recommendation-settings.php:315
+#, fuzzy
+msgid "to define different product characteristics"
+msgstr "产品特征：定义不同的产品特征"
+
+#: includes/class-product-recommendation-settings.php:316
+msgid "Suitable For:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:316
+#, fuzzy
+msgid "to define occasions"
+msgstr "适用场合：定义场合"
+
+#: includes/class-product-recommendation-settings.php:317
+msgid "Suitable Season:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:317
+#, fuzzy
+msgid "to define suitable seasons"
+msgstr "适用季节：定义适用季节"
+
+#: includes/class-product-recommendation-settings.php:318
+msgid "Gender:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:318
+#, fuzzy
+msgid "to define suitable gender"
+msgstr "性别：定义适用性别"
+
+#: includes/class-product-recommendation-settings.php:319
+msgid "Quality:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:319
+#, fuzzy
+msgid "to define quality levels"
+msgstr "质量：定义质量等级"
+
+#: includes/class-product-recommendation-settings.php:320
+#, fuzzy
+msgid "Usage:"
+msgstr "用途"
+
+#: includes/class-product-recommendation-settings.php:320
+#, fuzzy
+msgid "to define different usages"
+msgstr "用途：定义不同用途"
+
+#: includes/class-product-recommendation-settings.php:325
+msgid "Step 4: Configure Products"
+msgstr "步骤4：配置产品"
+
+#: includes/class-product-recommendation-settings.php:327
+msgid "Go to Products > All Products"
+msgstr "转到产品 > 所有产品"
+
+#: includes/class-product-recommendation-settings.php:328
+msgid "Click on the desired product to edit it"
+msgstr "点击所需产品进行编辑"
+
+#: includes/class-product-recommendation-settings.php:329
+msgid ""
+"In the Product Characteristics section (located at the bottom of the product "
+"page):"
+msgstr "在产品特征部分（位于产品页面底部）："
+
+#: includes/class-product-recommendation-settings.php:330
+msgid "For each base question, select the appropriate option:"
+msgstr "对于每个基础问题，选择适当的选项："
+
+#: includes/class-product-recommendation-settings.php:332
+msgid ""
+"Product Category: Clothing, Digital Accessories, Home Appliances, Beauty & "
+"Health, Books, Other"
+msgstr "产品类别：服装、数码配件、家用电器、美容健康、书籍、其他"
+
+#: includes/class-product-recommendation-settings.php:333
+msgid ""
+"Price Range: Less than 500 thousand Tomans, 500 thousand to 2 million "
+"Tomans, More than 2 million Tomans"
+msgstr "价格范围：低于500元，500元到2000元，高于2000元"
+
+#: includes/class-product-recommendation-settings.php:334
+msgid ""
+"Target Audience: Myself, Family members, Gift for friend, Child, Teenager, "
+"Adult"
+msgstr "目标受众：我自己、家庭成员、朋友礼物、儿童、青少年、成人"
+
+#: includes/class-product-recommendation-settings.php:335
+msgid "Style: Bright colors, Dark colors, Classic, Modern, Sporty"
+msgstr "风格：亮色、暗色、经典、现代、运动"
+
+#: includes/class-product-recommendation-settings.php:336
+msgid "Usage: Daily use, Party, Workplace, Travel, Sports"
+msgstr "用途：日常使用、聚会、工作场所、旅行、运动"
+
+#: includes/class-product-recommendation-settings.php:337
+msgid ""
+"Special Feature: High build quality, Reputable brand, Low energy "
+"consumption, Portable, Multi-functional"
+msgstr "特殊功能：高质量制造、知名品牌、低能耗、便携、多功能"
+
+#: includes/class-product-recommendation-settings.php:340
+msgid ""
+"Also configure other product characteristics (features, occasions, seasons, "
+"etc.)"
+msgstr "同时配置其他产品特征（功能、场合、季节等）"
+
+#: includes/class-product-recommendation-settings.php:341
+msgid "Save the product"
+msgstr "保存产品"
+
+#: includes/class-product-recommendation-settings.php:342
+msgid "Repeat this process for all products you want to display in the form"
+msgstr "对您想在表单中显示的所有产品重复此过程"
+
+#: includes/class-product-recommendation-settings.php:345
+msgid "Step 5: Place the Form on Your Site"
+msgstr "步骤5：在您的网站上放置表单"
+
+#: includes/class-product-recommendation-settings.php:347
+msgid "Go to Pages > Add New Page"
+msgstr "转到页面 > 添加新页面"
+
+#: includes/class-product-recommendation-settings.php:348
+msgid "Enter the page title (example: Product Recommendation)"
+msgstr "输入页面标题（示例：产品推荐）"
+
+#: includes/class-product-recommendation-settings.php:349
+msgid "In the page content, place the following shortcode:"
+msgstr "在页面内容中，放置以下短代码："
+
+#: includes/class-product-recommendation-settings.php:351
+msgid "Publish the page"
+msgstr "发布页面"
+
+#: includes/class-product-recommendation-settings.php:352
+msgid ""
+"Or place the same shortcode in any other page or post where you want the "
+"form to appear"
+msgstr "或在您希望表单出现的任何其他页面或文章中放置相同的短代码"
+
+#: includes/class-product-recommendation-settings.php:355
+msgid "Step 6: Test Functionality"
+msgstr "步骤6：测试功能"
+
+#: includes/class-product-recommendation-settings.php:357
+msgid "Go to the page where you placed the form"
+msgstr "转到您放置表单的页面"
+
+#: includes/class-product-recommendation-settings.php:358
+msgid ""
+"View the form and make sure questions and options are displayed correctly"
+msgstr "查看表单并确保问题和选项正确显示"
+
+#: includes/class-product-recommendation-settings.php:359
+msgid "Fill out the form and try different responses"
+msgstr "填写表单并尝试不同的回答"
+
+#: includes/class-product-recommendation-settings.php:360
+msgid "Check that recommended products are displayed"
+msgstr "检查是否显示推荐产品"
+
+#: includes/class-product-recommendation-settings.php:361
+msgid ""
+"If no product is displayed, check that the product characteristics are set "
+"correctly"
+msgstr "如果没有显示产品，请检查产品特征是否正确设置"
+
+#: includes/class-product-recommendation-settings.php:364
+msgid "Troubleshooting Common Issues"
+msgstr "常见问题故障排除"
+
+#: includes/class-product-recommendation-settings.php:366
+msgid "Question options are empty:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:366
+#, fuzzy
+msgid "Go to the Plugin Features tab and add options"
+msgstr "转到插件功能选项卡"
+
+#: includes/class-product-recommendation-settings.php:367
+#, fuzzy
+msgid "No product is displayed:"
+msgstr "没有显示产品：检查产品特征"
+
+#: includes/class-product-recommendation-settings.php:367
+#, fuzzy
+msgid "Check product characteristics"
+msgstr "产品特征"
+
+#: includes/class-product-recommendation-settings.php:368
+#, fuzzy
+msgid "Colors are not correct:"
+msgstr "颜色不正确：检查常规设置"
+
+#: includes/class-product-recommendation-settings.php:368
+#, fuzzy
+msgid "Check general settings"
+msgstr "保存常规设置"
+
+#: includes/class-product-recommendation-settings.php:369
+#, fuzzy
+msgid "Form is not displayed:"
+msgstr "表单未显示：检查短代码"
+
+#: includes/class-product-recommendation-settings.php:369
+#, fuzzy
+msgid "Check the shortcode"
+msgstr "表单未显示：检查短代码"
+
+#: includes/class-product-recommendation-settings.php:372
+msgid "Important Notes"
+msgstr "重要说明"
+
+#: includes/class-product-recommendation-settings.php:374
+msgid ""
+"All characteristic management and plugin options are done only through this "
+"page"
+msgstr "所有特征管理和插件选项仅通过此页面完成"
+
+#: includes/class-product-recommendation-settings.php:375
+msgid "Plugin-related links have been removed from other admin sections"
+msgstr "与插件相关的链接已从其他管理部分中移除"
+
+#: includes/class-product-recommendation-settings.php:376
+msgid ""
+"For best results, configure at least 6 products with different "
+"characteristics"
+msgstr "为获得最佳效果，请配置至少6个具有不同特征的产品"
+
+#: includes/class-product-recommendation-settings.php:377
+msgid "Product characteristics must match question options"
+msgstr "产品特征必须与问题选项匹配"
+
+#: includes/class-product-recommendation-settings.php:378
+msgid "The form automatically adapts to your settings"
+msgstr "表单会自动适应您的设置"
+
+#: includes/class-product-recommendation-settings.php:381
+#: includes/class-product-recommendation-settings.php:1214
+msgid "Supported Languages and Countries"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:382
+#: includes/class-product-recommendation-settings.php:1215
+msgid ""
+"This plugin supports multiple languages and automatically adapts to your "
+"WordPress language setting. The following languages and countries are fully "
+"supported:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:385
+#: includes/class-product-recommendation-settings.php:1218
+msgid "Persian/Farsi (فارسی)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:387
+#: includes/class-product-recommendation-settings.php:1220
+msgid "Iran"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:388
+#: includes/class-product-recommendation-settings.php:1223
+#, fuzzy
+msgid "General Persian"
+msgstr "常规设置"
+
+#: includes/class-product-recommendation-settings.php:393
+#: includes/class-product-recommendation-settings.php:1228
+msgid "English"
+msgstr "英语"
+
+#: includes/class-product-recommendation-settings.php:395
+#: includes/class-product-recommendation-settings.php:1230
+msgid "United States"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:396
+#: includes/class-product-recommendation-settings.php:1231
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:397
+#: includes/class-product-recommendation-settings.php:1232
+msgid "Canada"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:398
+#: includes/class-product-recommendation-settings.php:1233
+msgid "Australia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:399
+#: includes/class-product-recommendation-settings.php:1234
+msgid "New Zealand"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:400
+#: includes/class-product-recommendation-settings.php:1235
+msgid "South Africa"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:401
+#: includes/class-product-recommendation-settings.php:1236
+msgid "Ireland"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:402
+#: includes/class-product-recommendation-settings.php:1248
+#, fuzzy
+msgid "General English"
+msgstr "常规设置"
+
+#: includes/class-product-recommendation-settings.php:407
+#: includes/class-product-recommendation-settings.php:1253
+#, fuzzy
+msgid "Russian (Русский)"
+msgstr "俄语"
+
+#: includes/class-product-recommendation-settings.php:409
+#: includes/class-product-recommendation-settings.php:1255
+msgid "Russia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:410
+#: includes/class-product-recommendation-settings.php:1256
+msgid "Ukraine"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:411
+#: includes/class-product-recommendation-settings.php:1257
+msgid "Belarus"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:412
+#: includes/class-product-recommendation-settings.php:1258
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:413
+#: includes/class-product-recommendation-settings.php:1259
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:414
+#: includes/class-product-recommendation-settings.php:1260
+#, fuzzy
+msgid "General Russian"
+msgstr "常规设置"
+
+#: includes/class-product-recommendation-settings.php:419
+#: includes/class-product-recommendation-settings.php:1265
+msgid "Chinese (中文)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:421
+#: includes/class-product-recommendation-settings.php:1267
+msgid "China (Simplified)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:422
+#: includes/class-product-recommendation-settings.php:1268
+msgid "Taiwan (Traditional)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:423
+#: includes/class-product-recommendation-settings.php:1247
+#: includes/class-product-recommendation-settings.php:1269
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:424
+#: includes/class-product-recommendation-settings.php:1246
+#: includes/class-product-recommendation-settings.php:1270
+msgid "Singapore"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:425
+#: includes/class-product-recommendation-settings.php:1271
+msgid "Macau"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:426
+#: includes/class-product-recommendation-settings.php:1272
+#, fuzzy
+msgid "General Chinese"
+msgstr "常规设置"
+
+#: includes/class-product-recommendation-settings.php:431
+#: includes/class-product-recommendation-settings.php:1277
+#, fuzzy
+msgid "Arabic (العربية)"
+msgstr "阿拉伯语"
+
+#: includes/class-product-recommendation-settings.php:433
+#: includes/class-product-recommendation-settings.php:1279
+#, fuzzy
+msgid "General Arabic"
+msgstr "常规设置"
+
+#: includes/class-product-recommendation-settings.php:434
+#: includes/class-product-recommendation-settings.php:1280
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:435
+#: includes/class-product-recommendation-settings.php:1281
+msgid "Egypt"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:436
+#: includes/class-product-recommendation-settings.php:1282
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:437
+#: includes/class-product-recommendation-settings.php:1283
+msgid "Jordan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:438
+#: includes/class-product-recommendation-settings.php:1284
+msgid "Syria"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:439
+#: includes/class-product-recommendation-settings.php:1285
+msgid "Lebanon"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:440
+#: includes/class-product-recommendation-settings.php:1286
+msgid "Iraq"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:441
+#: includes/class-product-recommendation-settings.php:1287
+msgid "Kuwait"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:442
+#: includes/class-product-recommendation-settings.php:1288
+msgid "Qatar"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:443
+#: includes/class-product-recommendation-settings.php:1289
+msgid "Bahrain"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:444
+#: includes/class-product-recommendation-settings.php:1290
+msgid "Oman"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:445
+#: includes/class-product-recommendation-settings.php:1291
+msgid "Yemen"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:446
+#: includes/class-product-recommendation-settings.php:1292
+msgid "Palestine"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:447
+#: includes/class-product-recommendation-settings.php:1293
+msgid "Israel"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:448
+#: includes/class-product-recommendation-settings.php:1294
+msgid "Morocco"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:449
+#: includes/class-product-recommendation-settings.php:1295
+msgid "Algeria"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:450
+#: includes/class-product-recommendation-settings.php:1296
+msgid "Tunisia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:451
+#: includes/class-product-recommendation-settings.php:1297
+msgid "Libya"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:452
+#: includes/class-product-recommendation-settings.php:1298
+msgid "Sudan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:453
+#: includes/class-product-recommendation-settings.php:1299
+msgid "Chad"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:454
+#: includes/class-product-recommendation-settings.php:1300
+msgid "Mauritania"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:455
+#: includes/class-product-recommendation-settings.php:1301
+msgid "Djibouti"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:456
+#: includes/class-product-recommendation-settings.php:1302
+msgid "Somalia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:457
+#: includes/class-product-recommendation-settings.php:1303
+msgid "Comoros"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:458
+#: includes/class-product-recommendation-settings.php:1304
+msgid "Eritrea"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:459
+#: includes/class-product-recommendation-settings.php:1305
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:460
+#: includes/class-product-recommendation-settings.php:1306
+msgid "South Sudan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:465
+#: includes/class-product-recommendation-settings.php:1311
+msgid "Automatic Language Detection"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:466
+#: includes/class-product-recommendation-settings.php:1312
+msgid ""
+"The plugin automatically detects your WordPress language setting and adapts "
+"all interface elements, questions, and options accordingly. If your "
+"WordPress language is set to one of the supported languages, the plugin will "
+"automatically use that language for all text and interface elements."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:470
+msgid "Summary of Steps:"
+msgstr "步骤总结："
+
+#: includes/class-product-recommendation-settings.php:471
+msgid ""
+"1. Configure base questions → 2. Customize form appearance → 3. Manage "
+"characteristics → 4. Configure products → 5. Place form on site → 6. Test "
+"functionality"
+msgstr ""
+"1. 配置基础问题 → 2. 自定义表单外观 → 3. 管理特征 → 4. 配置产品 → 5. 在网站上"
+"放置表单 → 6. 测试功能"
+
+#: includes/class-product-recommendation-settings.php:483
+msgid "Enable Plugin"
+msgstr "启用插件"
+
+#: includes/class-product-recommendation-settings.php:489
+msgid "Custom Message"
+msgstr "自定义消息"
+
+#: includes/class-product-recommendation-settings.php:495
+msgid "Primary Color"
+msgstr "主色调"
+
+#: includes/class-product-recommendation-settings.php:497
+msgid "Example: #8c0101 or rgba(140,1,1,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:498
+msgid ""
+"Enter color code in HEX or RGBA format. (Example: #8c0101 or rgba(140,1,1,1))"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:502
+#, fuzzy
+msgid "Form Font Color"
+msgstr "字体颜色"
+
+#: includes/class-product-recommendation-settings.php:504
+msgid "#fff or #000 or rgba(255,255,255,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:505
+msgid "Enter form font color code."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:509
+#, fuzzy
+msgid "Form Button Color"
+msgstr "按钮颜色"
+
+#: includes/class-product-recommendation-settings.php:511
+msgid "#fff or #8c0101 or rgba(140,1,1,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:512
+msgid "Enter form button background color code."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:516
+#, fuzzy
+msgid "Form Button Text Color"
+msgstr "按钮文字颜色"
+
+#: includes/class-product-recommendation-settings.php:518
+msgid "#8c0101 or #fff or rgba(140,1,1,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:519
+msgid "Enter form button text color code."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:523
+msgid "Save General Settings"
+msgstr "保存常规设置"
+
+#: includes/class-product-recommendation-settings.php:580
+msgid "Base questions reset to default for this language."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:593
+msgid "Question deleted."
+msgstr "问题已删除。"
+
+#: includes/class-product-recommendation-settings.php:604
+#: includes/class-product-recommendation-settings.php:615
+msgid "Question moved."
+msgstr "问题已移动。"
+
+#: includes/class-product-recommendation-settings.php:636
+msgid "Base questions saved."
+msgstr "基础问题已保存。"
+
+#: includes/class-product-recommendation-settings.php:651
+msgid "New question added."
+msgstr "新问题已添加。"
+
+#: includes/class-product-recommendation-settings.php:669
+msgid "Select Language for Base Questions"
+msgstr "选择基础问题的语言"
+
+#: includes/class-product-recommendation-settings.php:670
+#: includes/class-product-recommendation-settings.php:1506
+msgid "Current WordPress Language:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:671
+#: includes/class-product-recommendation-settings.php:1507
+#, fuzzy
+msgid "Plugin Default Language:"
+msgstr "插件功能"
+
+#: includes/class-product-recommendation-settings.php:676
+msgid "Default"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:680
+#, fuzzy
+msgid ""
+"Select the language to edit base questions for that language. The current "
+"WordPress language is automatically selected."
+msgstr "选择要编辑该语言基础问题的语言。"
+
+#: includes/class-product-recommendation-settings.php:701
+#: includes/class-product-recommendation-settings.php:733
+msgid "Question Title"
+msgstr "问题标题"
+
+#: includes/class-product-recommendation-settings.php:705
+#: includes/class-product-recommendation-settings.php:737
+msgid "WooCommerce Attribute"
+msgstr "WooCommerce属性"
+
+#: includes/class-product-recommendation-settings.php:709
+#: includes/class-product-recommendation-settings.php:741
+msgid "Options (one per line)"
+msgstr "选项（每行一个）"
+
+#: includes/class-product-recommendation-settings.php:714
+#, fuzzy
+msgid "Delete?"
+msgstr "删除"
+
+#: includes/class-product-recommendation-settings.php:714
+msgid "Delete"
+msgstr "删除"
+
+#: includes/class-product-recommendation-settings.php:716
+msgid "Up"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:719
+#, fuzzy
+msgid "Down"
+msgstr "下移"
+
+#: includes/class-product-recommendation-settings.php:725
+msgid "Save Base Questions"
+msgstr "保存基础问题"
+
+#: includes/class-product-recommendation-settings.php:728
+msgid "Add New Question"
+msgstr "添加新问题"
+
+#: includes/class-product-recommendation-settings.php:745
+#, fuzzy
+msgid "Add Question"
+msgstr "添加新问题"
+
+#: includes/class-product-recommendation-settings.php:749
+msgid "Reset Base Questions to Default for This Language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:813
+#, fuzzy
+msgid "Plugin Features (Taxonomy)"
+msgstr "插件功能"
+
+#: includes/class-product-recommendation-settings.php:814
+msgid ""
+"In this section, you can manage the options for each feature (taxonomy). "
+"Adding, editing, and deleting options is only possible from this section, "
+"and access to WooCommerce's default management for these features is "
+"disabled."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:815
+msgid "Feature Name (taxonomy)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:815
+msgid "Title"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:815
+#, fuzzy
+msgid "Options (terms)"
+msgstr "选项（每行一个）"
+
+#: includes/class-product-recommendation-settings.php:846
+msgid "No options"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:852
+#, fuzzy
+msgid "Add new option..."
+msgstr "如有需要，添加新选项"
+
+#: includes/class-product-recommendation-settings.php:853
+msgid "Add"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:859
+msgid "This list only displays features managed by the plugin."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:868
+#, fuzzy
+msgid "New option added."
+msgstr "新问题已添加。"
+
+#: includes/class-product-recommendation-settings.php:870
+msgid "Error:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1221
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1222
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1237
+msgid "India"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1238
+msgid "Pakistan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1239
+msgid "Nigeria"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1240
+msgid "Kenya"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1241
+msgid "Uganda"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1242
+msgid "Tanzania"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1243
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1244
+msgid "Philippines"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1245
+msgid "Malaysia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1316
+msgid "How to Change Language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1317
+msgid "To change the plugin language:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1319
+msgid "Go to WordPress Admin → Settings → General"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1320
+msgid "Change the \"Site Language\" setting to your desired language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1321
+#, fuzzy
+msgid "Save the changes"
+msgstr "保存产品"
+
+#: includes/class-product-recommendation-settings.php:1322
+#, fuzzy
+msgid "The plugin will automatically adapt to the new language"
+msgstr "表单会自动适应您的设置"
+
+#: includes/class-product-recommendation-settings.php:1505
+#, fuzzy
+msgid "Language Information"
+msgstr "选择基础问题的语言"
+
+#: includes/class-product-recommendation-settings.php:1509
+msgid "✓ Languages match - Plugin will use current WordPress language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1511
+msgid ""
+"⚠ Languages differ - Plugin will use WordPress language, but default is "
+"different"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1514
+msgid "Update Plugin Default Language to Match WordPress"
+msgstr ""
+
+#: includes/class-product-recommendation.php:218
+#: includes/class-product-recommendation.php:219
+#: includes/class-product-recommendation.php:317
+msgid "Product Recommendation System"
+msgstr "产品推荐系统"
+
+#: includes/class-product-recommendation.php:229
+#: includes/class-product-recommendation.php:230
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-product-recommendation.php:249
+msgid "Product Characteristics"
+msgstr "产品特征"
+
+#: includes/class-product-recommendation.php:319
+#, fuzzy
+msgid "Usage Guide"
+msgstr "指南"
+
+#: includes/class-product-recommendation.php:320
+msgid ""
+"To add a product recommendation form to any page or post, use the following "
+"shortcode:"
+msgstr "要在任何页面或文章中添加产品推荐表单，请使用以下短代码："
+
+#: includes/class-product-recommendation.php:322
+msgid "How to configure products for recommendations"
+msgstr "如何配置产品以进行推荐"
+
+#: includes/class-product-recommendation.php:323
+msgid "To enable a product in the product recommendation system:"
+msgstr "要在产品推荐系统中启用产品："
+
+#: includes/class-product-recommendation.php:325
+msgid "Create a new product in WooCommerce."
+msgstr "在WooCommerce中创建新产品。"
+
+#: includes/class-product-recommendation.php:326
+msgid "In the Product Characteristics section, select appropriate values."
+msgstr "在产品特征部分，选择适当的值。"
+
+#: includes/class-product-recommendation.php:327
+#: includes/class-product-recommendation.php:372
+msgid "Publish the product."
+msgstr "发布产品。"
+
+#: includes/class-product-recommendation.php:329
+msgid ""
+"Form questions and their options are editable from the plugin settings "
+"section."
+msgstr "表单问题及其选项可从插件设置部分编辑。"
+
+#: includes/class-product-recommendation.php:340
+msgid ""
+"Don't forget to set the product characteristics for this product to enable "
+"it in the recommendation system."
+msgstr "不要忘记为此产品设置产品特征，以便在推荐系统中启用它。"
+
+#: includes/class-product-recommendation.php:353
+#, fuzzy
+msgid "Product Recommendation System Guide"
+msgstr "产品推荐系统"
+
+#: includes/class-product-recommendation.php:355
+msgid "How to Use the System"
+msgstr "如何使用系统"
+
+#: includes/class-product-recommendation.php:356
+msgid ""
+"The product recommendation system allows you to suggest appropriate products "
+"based on user characteristics."
+msgstr "产品推荐系统允许您根据用户特征推荐合适的产品。"
+
+#: includes/class-product-recommendation.php:358
+msgid "Setup Steps:"
+msgstr "设置步骤："
+
+#: includes/class-product-recommendation.php:360
+#, fuzzy
+msgid "Enable Plugin:"
+msgstr "启用插件"
+
+#: includes/class-product-recommendation.php:360
+#, fuzzy
+msgid "Activate the plugin in WordPress."
+msgstr "启用插件：在WordPress中激活插件。"
+
+#: includes/class-product-recommendation.php:361
+#: includes/class-product-recommendation.php:366
+msgid "Configure Products:"
+msgstr "配置产品："
+
+#: includes/class-product-recommendation.php:361
+#, fuzzy
+msgid ""
+"For each product, set appropriate characteristics in the 'Product "
+"Characteristics' section."
+msgstr "配置产品：为每个产品在'产品特征'部分设置适当的特征。"
+
+#: includes/class-product-recommendation.php:362
+#, fuzzy
+msgid "Add Form:"
+msgstr "添加到购物车"
+
+#: includes/class-product-recommendation.php:362
+#, fuzzy
+msgid ""
+"Place the shortcode [product_recommendation_form] on the desired page or "
+"post."
+msgstr "添加表单：在所需页面或文章中放置短代码 [product_recommendation_form]。"
+
+#: includes/class-product-recommendation.php:363
+msgid "Customize:"
+msgstr ""
+
+#: includes/class-product-recommendation.php:363
+#, fuzzy
+msgid "Personalize the form appearance from the settings section."
+msgstr "自定义：从设置部分个性化表单外观。"
+
+#: includes/class-product-recommendation.php:367
+msgid "To enable a product in the recommendation system:"
+msgstr "要在推荐系统中启用产品："
+
+#: includes/class-product-recommendation.php:369
+msgid "Go to the WooCommerce products section."
+msgstr "转到WooCommerce产品部分。"
+
+#: includes/class-product-recommendation.php:370
+msgid "Edit the desired product."
+msgstr "编辑所需产品。"
+
+#: includes/class-product-recommendation.php:371
+msgid "In the 'Product Characteristics' section, select appropriate values."
+msgstr "在'产品特征'部分，选择适当的值。"
+
+#: includes/class-product-recommendation.php:375
+msgid "Shortcodes:"
+msgstr "短代码："
+
+#: includes/class-product-recommendation.php:377
+#, fuzzy
+msgid "Product recommendation form"
+msgstr "产品推荐系统"
+
+#: includes/class-product-recommendation.php:380
+msgid "Support:"
+msgstr "支持："
+
+#: includes/class-product-recommendation.php:381
+msgid "For support or to report issues, contact the development team."
+msgstr "如需支持或报告问题，请联系开发团队。"
+
+#: includes/class-product-recommendation.php:503
+msgid "No answers provided."
+msgstr ""
+
+#: includes/class-product-recommendation.php:515
+#, fuzzy
+msgid "Here are your recommended products:"
+msgstr "推荐产品"
+
+#~ msgid ""
+#~ "A comprehensive product recommendation system for WooCommerce that helps "
+#~ "customers find the perfect products based on their preferences and "
+#~ "characteristics."
+#~ msgstr ""
+#~ "一个全面的WooCommerce产品推荐系统，帮助客户根据他们的偏好和特征找到完美的"
+#~ "产品。"
+
+#~ msgid "For Whom"
+#~ msgstr "适用对象"
+
+#~ msgid "Select"
+#~ msgstr "选择"
+
+#~ msgid "Under 500K Toman"
+#~ msgstr "50万图曼以下"
+
+#~ msgid "500K to 2M Toman"
+#~ msgstr "50万-200万图曼"
+
+#~ msgid "Over 2M Toman"
+#~ msgstr "200万图曼以上"
+
+#~ msgid "High Quality Construction"
+#~ msgstr "高质量制造"
+
+#~ msgid "Multi-purpose"
+#~ msgstr "多功能"
+
+#~ msgid "What is this product used for?"
+#~ msgstr "这个产品用于什么？"
+
+#~ msgid "Submit"
+#~ msgstr "提交"
+
+#~ msgid "Start Over"
+#~ msgstr "重新开始"
+
+#~ msgid "Based on your preferences, here are our recommendations:"
+#~ msgstr "根据您的偏好，以下是我们的推荐："
+
+#~ msgid "No recommendations available."
+#~ msgstr "暂无推荐。"
+
+#~ msgid ""
+#~ "Product Recommendation System requires WooCommerce to be installed and "
+#~ "activated."
+#~ msgstr "产品推荐系统需要安装并激活WooCommerce。"
+
+#~ msgid "ویژگی‌های افزونه (Taxonomy)"
+#~ msgstr "插件功能 (分类)"
+
+#~ msgid ""
+#~ "در این بخش می‌توانید گزینه‌های هر ویژگی (taxonomy) را مدیریت کنید. افزودن، "
+#~ "ویرایش و حذف گزینه‌ها فقط از همین بخش انجام می‌شود و دسترسی به مدیریت "
+#~ "پیش‌فرض ووکامرس برای این ویژگی‌ها غیرفعال است."
+#~ msgstr ""
+#~ "在此部分，您可以管理每个功能（分类）的选项。只能在此处添加、编辑和删除选"
+#~ "项，WooCommerce 的默认管理已禁用。"
+
+#~ msgid "نام ویژگی (taxonomy)"
+#~ msgstr "功能名称 (分类)"
+
+#~ msgid "افزودن گزینه جدید..."
+#~ msgstr "添加新选项..."
+
+#~ msgid "این لیست فقط ویژگی‌هایی را نمایش می‌دهد که توسط افزونه مدیریت می‌شوند."
+#~ msgstr "此列表仅显示由插件管理的功能。"
+
+#~ msgid "افزودن"
+#~ msgstr "添加"
+
+#~ msgid "در ادامه چند محصول محبوب از فروشگاه ما را مشاهده می‌کنید:"
+#~ msgstr "以下是我们商店的一些热门产品："
+
+#~ msgid "مشاهده جزئیات"
+#~ msgstr "查看详情"
+
+#~ msgid "افزودن به سبد خرید"
+#~ msgstr "加入购物车"
+
+#~ msgid "Move Up"
+#~ msgstr "上移"
+
+#~ msgid ""
+#~ "Question options are empty: Go to the Plugin Features tab and add options"
+#~ msgstr "问题选项为空：转到插件功能选项卡并添加选项"
+
+#~ msgid "فارسی"
+#~ msgstr "波斯语"
+
+#~ msgid "中文"
+#~ msgstr "中文"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Translation Debug"
+msgstr "翻译调试"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Translation Debug Information"
+msgstr "翻译调试信息"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Available Translation Files"
+msgstr "可用的翻译文件"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "No .mo files found."
+msgstr "未找到.mo文件。"

@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('../fonts/Vazirmatn-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.perfume-recommendation-meta-box {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Vazirmatn', sans-serif;
+    padding: 15px;
+}
+
+.perfume-recommendation-meta-box .form-group {
+    margin-bottom: 15px;
+}
+
+.perfume-recommendation-meta-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 900;
+    color: #23282d;
+}
+
+.perfume-recommendation-meta-box select {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: 500;
+}
+
+.perfume-recommendation-meta-box select:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+#perfume_recommendation_meta_box .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#perfume_recommendation_meta_box h2.hndle {
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: 900;
+    padding: 12px 15px;
+    margin: 0;
+    border-bottom: 1px solid #dcdcde;
+}
+
+#perfume_recommendation_meta_box .postbox-header {
+    border-bottom: 1px solid #dcdcde;
+} 

@@ -1,0 +1,478 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# PHP files
+*.php text eol=lf
+*.inc text eol=lf
+
+# JavaScript files
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+
+# CSS files
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+
+# HTML files
+*.html text eol=lf
+*.htm text eol=lf
+
+# XML files
+*.xml text eol=lf
+*.svg text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# Markdown files
+*.md text eol=lf
+*.markdown text eol=lf
+
+# Documentation files
+*.txt text eol=lf
+*.rst text eol=lf
+
+# Configuration files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+
+# Translation files
+*.po text eol=lf
+*.pot text eol=lf
+*.mo binary
+
+# Template files
+*.tpl text eol=lf
+*.template text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# Python files
+*.py text eol=lf
+
+# Ruby files
+*.rb text eol=lf
+
+# Java files
+*.java text eol=lf
+
+# C/C++ files
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# Go files
+*.go text eol=lf
+
+# Rust files
+*.rs text eol=lf
+
+# Swift files
+*.swift text eol=lf
+
+# Kotlin files
+*.kt text eol=lf
+
+# Scala files
+*.scala text eol=lf
+
+# R files
+*.r text eol=lf
+*.R text eol=lf
+
+# MATLAB files
+*.m text eol=lf
+
+# Julia files
+*.jl text eol=lf
+
+# Lua files
+*.lua text eol=lf
+
+# Perl files
+*.pl text eol=lf
+*.pm text eol=lf
+
+# Haskell files
+*.hs text eol=lf
+*.lhs text eol=lf
+
+# OCaml files
+*.ml text eol=lf
+*.mli text eol=lf
+
+# F# files
+*.fs text eol=lf
+*.fsx text eol=lf
+
+# Clojure files
+*.clj text eol=lf
+*.cljs text eol=lf
+
+# Elixir files
+*.ex text eol=lf
+*.exs text eol=lf
+
+# Erlang files
+*.erl text eol=lf
+*.hrl text eol=lf
+
+# Prolog files
+*.pl text eol=lf
+*.pro text eol=lf
+
+# Assembly files
+*.asm text eol=lf
+*.s text eol=lf
+
+# Fortran files
+*.f text eol=lf
+*.f90 text eol=lf
+*.f95 text eol=lf
+
+# COBOL files
+*.cob text eol=lf
+*.cbl text eol=lf
+
+# Pascal files
+*.pas text eol=lf
+*.pp text eol=lf
+
+# Ada files
+*.adb text eol=lf
+*.ads text eol=lf
+
+# VHDL files
+*.vhd text eol=lf
+*.vhdl text eol=lf
+
+# Verilog files
+*.v text eol=lf
+*.sv text eol=lf
+
+# SystemVerilog files
+*.svh text eol=lf
+
+# TCL files
+*.tcl text eol=lf
+
+# AWK files
+*.awk text eol=lf
+
+# Sed files
+*.sed text eol=lf
+
+# Makefiles
+Makefile text eol=lf
+makefile text eol=lf
+*.mk text eol=lf
+*.make text eol=lf
+
+# CMake files
+CMakeLists.txt text eol=lf
+*.cmake text eol=lf
+
+# Autotools files
+configure.ac text eol=lf
+configure.in text eol=lf
+Makefile.am text eol=lf
+*.m4 text eol=lf
+
+# Build files
+*.build text eol=lf
+*.targets text eol=lf
+*.props text eol=lf
+
+# Package files
+package.json text eol=lf
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+composer.json text eol=lf
+composer.lock text eol=lf
+Gemfile text eol=lf
+Gemfile.lock text eol=lf
+Pipfile text eol=lf
+Pipfile.lock text eol=lf
+requirements.txt text eol=lf
+setup.py text eol=lf
+pyproject.toml text eol=lf
+Cargo.toml text eol=lf
+Cargo.lock text eol=lf
+go.mod text eol=lf
+go.sum text eol=lf
+mix.exs text eol=lf
+mix.lock text eol=lf
+rebar.config text eol=lf
+rebar.lock text eol=lf
+deps.edn text eol=lf
+project.clj text eol=lf
+build.sbt text eol=lf
+build.sc text eol=lf
+
+# IDE and Editor files
+.vscode/settings.json text eol=lf
+.vscode/launch.json text eol=lf
+.vscode/tasks.json text eol=lf
+.idea/workspace.xml text eol=lf
+.idea/modules.xml text eol=lf
+*.sublime-project text eol=lf
+*.sublime-workspace text eol=lf
+.atom/project.cson text eol=lf
+.brackets.json text eol=lf
+
+# Version control files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gitmodules text eol=lf
+.git-blame-ignore-revs text eol=lf
+
+# Documentation files
+README* text eol=lf
+CHANGELOG* text eol=lf
+LICENSE* text eol=lf
+CONTRIBUTING* text eol=lf
+SECURITY* text eol=lf
+SUPPORT* text eol=lf
+CODE_OF_CONDUCT* text eol=lf
+*.pdf binary
+
+# Log files
+*.log text eol=lf
+
+# Database files
+*.sql text eol=lf
+*.sqlite binary
+*.db binary
+
+# Archive files
+*.zip binary
+*.tar binary
+*.tar.gz binary
+*.tar.bz2 binary
+*.tar.xz binary
+*.rar binary
+*.7z binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.tif binary
+*.ico binary
+*.svg text eol=lf
+*.webp binary
+*.avif binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.flac binary
+*.aac binary
+*.ogg binary
+*.wma binary
+*.m4a binary
+
+# Video files
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.wmv binary
+*.flv binary
+*.webm binary
+*.mkv binary
+*.m4v binary
+*.3gp binary
+*.ogv binary
+
+# Font files
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+
+# Executable files
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.app binary
+*.dmg binary
+*.pkg binary
+*.deb binary
+*.rpm binary
+*.msi binary
+
+# Compiled files
+*.o binary
+*.obj binary
+*.class binary
+*.pyc binary
+*.pyo binary
+__pycache__/ binary
+
+# Cache files
+.cache/ binary
+cache/ binary
+tmp/ binary
+temp/ binary
+
+# Node modules
+node_modules/ binary
+
+# Vendor directories
+vendor/ binary
+
+# Build directories
+build/ binary
+dist/ binary
+target/ binary
+out/ binary
+
+# Coverage reports
+coverage/ binary
+.nyc_output/ binary
+
+# Test results
+test-results/ binary
+coverage/ binary
+
+# IDE specific
+.vscode/ binary
+.idea/ binary
+*.swp binary
+*.swo binary
+*~ binary
+
+# OS generated files
+.DS_Store binary
+.DS_Store? binary
+._* binary
+.Spotlight-V100 binary
+.Trashes binary
+ehthumbs.db binary
+Thumbs.db binary
+desktop.ini binary
+
+# WordPress specific
+wp-config.php text eol=lf
+wp-content/uploads/ binary
+wp-content/cache/ binary
+wp-content/backup-db/ binary
+wp-content/backups/ binary
+wp-content/blogs.dir/ binary
+wp-content/upgrade/ binary
+wp-content/uploads/ binary
+wp-content/mu-plugins/ binary
+wp-content/wp-cache-config.php binary
+wp-content/plugins/hello.php binary
+
+# Plugin specific
+languages/*.mo binary
+languages/*.po text eol=lf
+languages/*.pot text eol=lf
+
+# Exclude sensitive files
+*.key binary
+*.pem binary
+*.p12 binary
+*.pfx binary
+*.crt binary
+*.csr binary
+*.env binary
+.env* binary
+config.php binary
+secrets.php binary
+database.php binary
+
+# Exclude large files
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.wmv binary
+*.flv binary
+*.webm binary
+*.mkv binary
+*.m4v binary
+*.3gp binary
+*.ogv binary
+
+# Exclude backup files
+*.bak binary
+*.backup binary
+*.old binary
+*.orig binary
+*.rej binary
+*.tmp binary
+*.temp binary
+
+# Exclude log files
+*.log binary
+logs/ binary
+error_log binary
+access_log binary
+
+# Exclude temporary files
+temp/ binary
+tmp/ binary
+cache/ binary
+*.cache binary
+*.tmp binary
+
+# Documentation build
+docs/_build/ binary
+docs/build/ binary
+site/ binary
+
+# OS Generated Files
+.DS_Store? binary
+ehthumbs.db binary
+Icon? binary
+Thumbs.db binary
+
+# Windows
+*.lnk binary
+
+# Linux
+*~ binary
+
+# macOS
+.AppleDouble binary
+.LSOverride binary
+
+# Thumbnails
+._* binary
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100 binary
+.fseventsd binary
+.Spotlight-V100 binary
+.TemporaryItems binary
+.Trashes binary
+.VolumeIcon.icns binary
+.com.apple.timemachine.donotpresent binary
+
+# Directories potentially created on remote AFP share
+.AppleDB binary
+.AppleDesktop binary
+Network Trash Folder binary
+Temporary Items binary
+.apdisk binary 

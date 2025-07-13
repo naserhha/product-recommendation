@@ -1,0 +1,281 @@
+# Copyright (C) 2024 Mohammad Nasser Haji Hashemabad
+# This file is distributed under the same license as the Product Recommendation System package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Recommendation System 1.0.0\n"
+"Report-Msgid-Bugs-To: https://mohammadnasser.com/\n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+msgid "#8c0101 or #fff or rgba(140,1,1,1)"
+msgstr ""
+
+msgid "#fff or #000 or rgba(255,255,255,1)"
+msgstr ""
+
+msgid "#fff or #8c0101 or rgba(140,1,1,1)"
+msgstr ""
+
+msgid "500 thousand to 2 million Tomans"
+msgstr ""
+
+msgid "Add New Question"
+msgstr ""
+
+msgid "Add Question"
+msgstr ""
+
+msgid "Add to Cart"
+msgstr ""
+
+msgid "Adult"
+msgstr ""
+
+msgid "An error occurred. Please try again."
+msgstr ""
+
+msgid "Base Questions"
+msgstr ""
+
+msgid "Base questions saved."
+msgstr ""
+
+msgid "Beauty & Health"
+msgstr ""
+
+msgid "Books"
+msgstr ""
+
+msgid "Bright colors"
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Child"
+msgstr ""
+
+msgid "Classic"
+msgstr ""
+
+msgid "Clothing"
+msgstr ""
+
+msgid "Custom Message"
+msgstr ""
+
+msgid "Daily use"
+msgstr ""
+
+msgid "Dark colors"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete?"
+msgstr ""
+
+msgid "Digital Accessories"
+msgstr ""
+
+msgid "Don\\"
+msgstr ""
+
+msgid "Down"
+msgstr ""
+
+msgid "Enable Plugin"
+msgstr ""
+
+msgid "Enter color code in HEX or RGBA format. (Example: #8c0101 or rgba(140,1,1,1))"
+msgstr ""
+
+msgid "Enter form button background color code."
+msgstr ""
+
+msgid "Enter form button text color code."
+msgstr ""
+
+msgid "Enter form font color code."
+msgstr ""
+
+msgid "Example: #8c0101 or rgba(140,1,1,1)"
+msgstr ""
+
+msgid "Family members"
+msgstr ""
+
+msgid "Feature"
+msgstr ""
+
+msgid "Form Button Color"
+msgstr ""
+
+msgid "Form Button Text Color"
+msgstr ""
+
+msgid "Form Font Color"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Get Recommendations"
+msgstr ""
+
+msgid "Gift for friend"
+msgstr ""
+
+msgid "Guide"
+msgstr ""
+
+msgid "High build quality"
+msgstr ""
+
+msgid "Home Appliances"
+msgstr ""
+
+msgid "Less than 500 thousand Tomans"
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Low energy consumption"
+msgstr ""
+
+msgid "Modern"
+msgstr ""
+
+msgid "More than 2 million Tomans"
+msgstr ""
+
+msgid "Multi-functional"
+msgstr ""
+
+msgid "Myself"
+msgstr ""
+
+msgid "New question added."
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "No products found matching your criteria."
+msgstr ""
+
+msgid "Options (one per line)"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Party"
+msgstr ""
+
+msgid "Please answer a few short questions so we can recommend the right product for you"
+msgstr ""
+
+msgid "Plugin Features"
+msgstr ""
+
+msgid "Plugin feature management is only done through this page. Plugin-related links have been removed from other dashboard sections."
+msgstr ""
+
+msgid "Portable"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Primary Color"
+msgstr ""
+
+msgid "Processing..."
+msgstr ""
+
+msgid "Product Characteristics"
+msgstr ""
+
+msgid "Product Recommendation"
+msgstr ""
+
+msgid "Question Title"
+msgstr ""
+
+msgid "Question deleted."
+msgstr ""
+
+msgid "Question moved."
+msgstr ""
+
+msgid "Reputable brand"
+msgstr ""
+
+msgid "Save Base Questions"
+msgstr ""
+
+msgid "Save General Settings"
+msgstr ""
+
+msgid "Sports"
+msgstr ""
+
+msgid "Sporty"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Target"
+msgstr ""
+
+msgid "Teenager"
+msgstr ""
+
+msgid "Travel"
+msgstr ""
+
+msgid "Up"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid "View Details"
+msgstr ""
+
+msgid "What is the intended use of this product?"
+msgstr ""
+
+msgid "What is your preferred price range?"
+msgstr ""
+
+msgid "What special feature are you looking for?"
+msgstr ""
+
+msgid "What style and color do you prefer?"
+msgstr ""
+
+msgid "What type of product are you looking for?"
+msgstr ""
+
+msgid "Who is this product for?"
+msgstr ""
+
+msgid "WooCommerce Attribute"
+msgstr ""
+
+msgid "Workplace"
+msgstr ""
+

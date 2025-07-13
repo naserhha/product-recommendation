@@ -1,0 +1,131 @@
+#: includes/class-product-recommendation-settings.php:316
+msgid "Suitable For:"
+msgstr "مناسب برای:"
+
+#: includes/class-product-recommendation-settings.php:317
+msgid "Suitable Season:"
+msgstr "فصل مناسب:"
+
+#: includes/class-product-recommendation-settings.php:318
+msgid "Gender:"
+msgstr "جنسیت:"
+
+#: includes/class-product-recommendation-settings.php:319
+msgid "Quality:"
+msgstr "کیفیت:"
+
+#: includes/class-product-recommendation-settings.php:465
+msgid "Automatic Language Detection"
+msgstr "شناسایی خودکار زبان"
+
+#: includes/class-product-recommendation-settings.php:466
+msgid "The plugin automatically detects your WordPress language setting and adapts all interface elements, questions, and options accordingly. If your WordPress language is set to one of the supported languages, the plugin will automatically use that language for all text and interface elements."
+msgstr "افزونه به طور خودکار زبان وردپرس شما را شناسایی می‌کند و تمام عناصر رابط کاربری، سوالات و گزینه‌ها را مطابق آن تنظیم می‌کند. اگر زبان وردپرس شما یکی از زبان‌های پشتیبانی‌شده باشد، افزونه به طور خودکار از آن زبان برای تمام متن‌ها و عناصر رابط کاربری استفاده خواهد کرد."
+
+#: includes/class-product-recommendation-settings.php:1280
+msgid "Saudi Arabia"
+msgstr "عربستان سعودی"
+
+#: includes/class-product-recommendation-settings.php:1281
+msgid "Egypt"
+msgstr "مصر"
+
+#: includes/class-product-recommendation-settings.php:1282
+msgid "United Arab Emirates"
+msgstr "امارات متحده عربی"
+
+#: includes/class-product-recommendation-settings.php:1283
+msgid "Jordan"
+msgstr "اردن"
+
+#: includes/class-product-recommendation-settings.php:1284
+msgid "Syria"
+msgstr "سوریه"
+
+#: includes/class-product-recommendation-settings.php:1285
+msgid "Lebanon"
+msgstr "لبنان"
+
+#: includes/class-product-recommendation-settings.php:1286
+msgid "Iraq"
+msgstr "عراق"
+
+#: includes/class-product-recommendation-settings.php:1287
+msgid "Kuwait"
+msgstr "کویت"
+
+#: includes/class-product-recommendation-settings.php:1288
+msgid "Qatar"
+msgstr "قطر"
+
+#: includes/class-product-recommendation-settings.php:1289
+msgid "Bahrain"
+msgstr "بحرین"
+
+#: includes/class-product-recommendation-settings.php:1290
+msgid "Oman"
+msgstr "عمان"
+
+#: includes/class-product-recommendation-settings.php:1291
+msgid "Yemen"
+msgstr "یمن"
+
+#: includes/class-product-recommendation-settings.php:1292
+msgid "Palestine"
+msgstr "فلسطین"
+
+#: includes/class-product-recommendation-settings.php:1293
+msgid "Israel"
+msgstr "اسرائیل"
+
+#: includes/class-product-recommendation-settings.php:1294
+msgid "Morocco"
+msgstr "مراکش"
+
+#: includes/class-product-recommendation-settings.php:1295
+msgid "Algeria"
+msgstr "الجزایر"
+
+#: includes/class-product-recommendation-settings.php:1296
+msgid "Tunisia"
+msgstr "تونس"
+
+#: includes/class-product-recommendation-settings.php:1297
+msgid "Libya"
+msgstr "لیبی"
+
+#: includes/class-product-recommendation-settings.php:1298
+msgid "Sudan"
+msgstr "سودان"
+
+#: includes/class-product-recommendation-settings.php:1299
+msgid "Chad"
+msgstr "چاد"
+
+#: includes/class-product-recommendation-settings.php:1300
+msgid "Mauritania"
+msgstr "موریتانی"
+
+#: includes/class-product-recommendation-settings.php:1301
+msgid "Djibouti"
+msgstr "جیبوتی"
+
+#: includes/class-product-recommendation-settings.php:1302
+msgid "Somalia"
+msgstr "سومالی"
+
+#: includes/class-product-recommendation-settings.php:1303
+msgid "Comoros"
+msgstr "کومور"
+
+#: includes/class-product-recommendation-settings.php:1304
+msgid "Eritrea"
+msgstr "اریتره"
+
+#: includes/class-product-recommendation-settings.php:1305
+msgid "Ethiopia"
+msgstr "اتیوپی"
+
+#: includes/class-product-recommendation-settings.php:1306
+msgid "South Sudan"
+msgstr "سودان جنوبی" 

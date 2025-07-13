@@ -1,0 +1,1811 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Recommendation System 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-13 15:10+0100\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: Mohammad Nasser Haji Hashemabad <info@mohammadnasser.com>\n"
+"Language-Team: Russian <info@mohammadnasser.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: includes/class-product-form.php:64
+#: includes/class-product-recommendation-activator.php:127
+#: includes/class-product-recommendation-frontend.php:88
+#: includes/class-product-recommendation-settings.php:140
+#: includes/class-product-recommendation.php:631
+#, fuzzy
+msgid "What type of product are you looking for?"
+msgstr "Какой тип продукта вы хотите?"
+
+#: includes/class-product-form.php:67
+#: includes/class-product-recommendation-activator.php:130
+#: includes/class-product-recommendation-frontend.php:91
+#: includes/class-product-recommendation-settings.php:143
+#: includes/class-product-recommendation.php:634
+msgid "Clothing"
+msgstr "Одежда"
+
+#: includes/class-product-form.php:68
+#: includes/class-product-recommendation-activator.php:131
+#: includes/class-product-recommendation-frontend.php:92
+#: includes/class-product-recommendation-settings.php:144
+#: includes/class-product-recommendation.php:635
+#, fuzzy
+msgid "Digital Accessories"
+msgstr "Цифровая электроника"
+
+#: includes/class-product-form.php:69
+#: includes/class-product-recommendation-activator.php:132
+#: includes/class-product-recommendation-frontend.php:93
+#: includes/class-product-recommendation-settings.php:145
+#: includes/class-product-recommendation.php:636
+msgid "Home Appliances"
+msgstr "Бытовая техника"
+
+#: includes/class-product-form.php:70
+#: includes/class-product-recommendation-activator.php:133
+#: includes/class-product-recommendation-frontend.php:94
+#: includes/class-product-recommendation-settings.php:146
+#: includes/class-product-recommendation.php:637
+msgid "Beauty & Health"
+msgstr "Красота и здоровье"
+
+#: includes/class-product-form.php:71
+#: includes/class-product-recommendation-activator.php:134
+#: includes/class-product-recommendation-frontend.php:95
+#: includes/class-product-recommendation-settings.php:147
+#: includes/class-product-recommendation.php:638
+msgid "Books"
+msgstr "Книги"
+
+#: includes/class-product-form.php:72
+#: includes/class-product-recommendation-activator.php:135
+#: includes/class-product-recommendation-frontend.php:96
+#: includes/class-product-recommendation-settings.php:148
+#: includes/class-product-recommendation.php:639
+msgid "Other"
+msgstr "Другое"
+
+#: includes/class-product-form.php:76
+#: includes/class-product-recommendation-activator.php:139
+#: includes/class-product-recommendation-frontend.php:100
+#: includes/class-product-recommendation-settings.php:152
+#: includes/class-product-recommendation.php:643
+#, fuzzy
+msgid "What is your preferred price range?"
+msgstr "Какой у вас диапазон цен?"
+
+#: includes/class-product-form.php:79
+#: includes/class-product-recommendation-activator.php:142
+#: includes/class-product-recommendation-frontend.php:103
+#: includes/class-product-recommendation-settings.php:155
+#: includes/class-product-recommendation.php:646
+msgid "Less than 500 thousand Tomans"
+msgstr "Менее 500 тысяч рублей"
+
+#: includes/class-product-form.php:80
+#: includes/class-product-recommendation-activator.php:143
+#: includes/class-product-recommendation-frontend.php:104
+#: includes/class-product-recommendation-settings.php:156
+#: includes/class-product-recommendation.php:647
+msgid "500 thousand to 2 million Tomans"
+msgstr "От 500 тысяч до 2 миллионов рублей"
+
+#: includes/class-product-form.php:81
+#: includes/class-product-recommendation-activator.php:144
+#: includes/class-product-recommendation-frontend.php:105
+#: includes/class-product-recommendation-settings.php:157
+#: includes/class-product-recommendation.php:648
+msgid "More than 2 million Tomans"
+msgstr "Более 2 миллионов рублей"
+
+#: includes/class-product-form.php:85
+#: includes/class-product-recommendation-activator.php:148
+#: includes/class-product-recommendation-frontend.php:109
+#: includes/class-product-recommendation-settings.php:161
+#: includes/class-product-recommendation.php:652
+msgid "Who is this product for?"
+msgstr "Для кого этот продукт?"
+
+#: includes/class-product-form.php:88
+#: includes/class-product-recommendation-activator.php:151
+#: includes/class-product-recommendation-frontend.php:112
+#: includes/class-product-recommendation-settings.php:164
+#: includes/class-product-recommendation.php:655
+msgid "Myself"
+msgstr "Для себя"
+
+#: includes/class-product-form.php:89
+#: includes/class-product-recommendation-activator.php:152
+#: includes/class-product-recommendation-frontend.php:113
+#: includes/class-product-recommendation-settings.php:165
+#: includes/class-product-recommendation.php:656
+#, fuzzy
+msgid "Family members"
+msgstr "Члены семьи"
+
+#: includes/class-product-form.php:90
+#: includes/class-product-recommendation-activator.php:153
+#: includes/class-product-recommendation-frontend.php:114
+#: includes/class-product-recommendation-settings.php:166
+#: includes/class-product-recommendation.php:657
+#, fuzzy
+msgid "Gift for friend"
+msgstr "Подарок другу"
+
+#: includes/class-product-form.php:91
+#: includes/class-product-recommendation-activator.php:154
+#: includes/class-product-recommendation-frontend.php:115
+#: includes/class-product-recommendation-settings.php:167
+#: includes/class-product-recommendation.php:658
+msgid "Child"
+msgstr "Ребенок"
+
+#: includes/class-product-form.php:92
+#: includes/class-product-recommendation-activator.php:155
+#: includes/class-product-recommendation-frontend.php:116
+#: includes/class-product-recommendation-settings.php:168
+#: includes/class-product-recommendation.php:659
+msgid "Teenager"
+msgstr "Подросток"
+
+#: includes/class-product-form.php:93
+#: includes/class-product-recommendation-activator.php:156
+#: includes/class-product-recommendation-frontend.php:117
+#: includes/class-product-recommendation-settings.php:169
+#: includes/class-product-recommendation.php:660
+msgid "Adult"
+msgstr "Взрослый"
+
+#: includes/class-product-form.php:97
+#: includes/class-product-recommendation-activator.php:160
+#: includes/class-product-recommendation-frontend.php:121
+#: includes/class-product-recommendation-settings.php:173
+#: includes/class-product-recommendation.php:664
+msgid "What style and color do you prefer?"
+msgstr "Какой стиль и цвет вы предпочитаете?"
+
+#: includes/class-product-form.php:100
+#: includes/class-product-recommendation-activator.php:163
+#: includes/class-product-recommendation-frontend.php:124
+#: includes/class-product-recommendation-settings.php:176
+#: includes/class-product-recommendation.php:667
+#, fuzzy
+msgid "Light colors"
+msgstr "Светлые цвета"
+
+#: includes/class-product-form.php:101
+#: includes/class-product-recommendation-activator.php:164
+#: includes/class-product-recommendation-frontend.php:125
+#: includes/class-product-recommendation-settings.php:177
+#: includes/class-product-recommendation.php:668
+#, fuzzy
+msgid "Dark colors"
+msgstr "Темные цвета"
+
+#: includes/class-product-form.php:102
+#: includes/class-product-recommendation-activator.php:165
+#: includes/class-product-recommendation-frontend.php:126
+#: includes/class-product-recommendation-settings.php:178
+#: includes/class-product-recommendation.php:669
+msgid "Classic"
+msgstr "Классический"
+
+#: includes/class-product-form.php:103
+#: includes/class-product-recommendation-activator.php:166
+#: includes/class-product-recommendation-frontend.php:127
+#: includes/class-product-recommendation-settings.php:179
+#: includes/class-product-recommendation.php:670
+msgid "Modern"
+msgstr "Современный"
+
+#: includes/class-product-form.php:104
+#: includes/class-product-recommendation-activator.php:167
+#: includes/class-product-recommendation-frontend.php:128
+#: includes/class-product-recommendation-settings.php:180
+#: includes/class-product-recommendation.php:671
+#, fuzzy
+msgid "Sporty"
+msgstr "Спорт"
+
+#: includes/class-product-form.php:108
+#: includes/class-product-recommendation-activator.php:171
+#: includes/class-product-recommendation-frontend.php:132
+#: includes/class-product-recommendation-settings.php:184
+#: includes/class-product-recommendation.php:675
+#, fuzzy
+msgid "What is this product for?"
+msgstr "Для кого этот продукт?"
+
+#: includes/class-product-form.php:111
+#: includes/class-product-recommendation-activator.php:174
+#: includes/class-product-recommendation-frontend.php:135
+#: includes/class-product-recommendation-settings.php:187
+#: includes/class-product-recommendation.php:678
+#, fuzzy
+msgid "Daily use"
+msgstr "Ежедневное использование"
+
+#: includes/class-product-form.php:112
+#: includes/class-product-recommendation-activator.php:175
+#: includes/class-product-recommendation-frontend.php:136
+#: includes/class-product-recommendation-settings.php:188
+#: includes/class-product-recommendation.php:679
+msgid "Party"
+msgstr "Вечеринка"
+
+#: includes/class-product-form.php:113
+#: includes/class-product-recommendation-activator.php:176
+#: includes/class-product-recommendation-frontend.php:137
+#: includes/class-product-recommendation-settings.php:189
+#: includes/class-product-recommendation.php:680
+#, fuzzy
+msgid "Workplace"
+msgstr "Работа"
+
+#: includes/class-product-form.php:114
+#: includes/class-product-recommendation-activator.php:177
+#: includes/class-product-recommendation-frontend.php:138
+#: includes/class-product-recommendation-settings.php:190
+#: includes/class-product-recommendation.php:681
+msgid "Travel"
+msgstr "Путешествие"
+
+#: includes/class-product-form.php:115
+#: includes/class-product-recommendation-activator.php:178
+#: includes/class-product-recommendation-frontend.php:139
+#: includes/class-product-recommendation-settings.php:191
+#: includes/class-product-recommendation.php:682
+#, fuzzy
+msgid "Sports"
+msgstr "Спорт"
+
+#: includes/class-product-form.php:119
+#: includes/class-product-recommendation-activator.php:182
+#: includes/class-product-recommendation-frontend.php:143
+#: includes/class-product-recommendation-settings.php:195
+#: includes/class-product-recommendation.php:686
+msgid "What special feature are you looking for?"
+msgstr "Какую особую функцию вы ищете?"
+
+#: includes/class-product-form.php:122
+#: includes/class-product-recommendation-activator.php:185
+#: includes/class-product-recommendation-frontend.php:146
+#: includes/class-product-recommendation-settings.php:198
+#: includes/class-product-recommendation.php:689
+msgid "High build quality"
+msgstr ""
+
+#: includes/class-product-form.php:123
+#: includes/class-product-recommendation-activator.php:186
+#: includes/class-product-recommendation-frontend.php:147
+#: includes/class-product-recommendation-settings.php:199
+#: includes/class-product-recommendation.php:690
+#, fuzzy
+msgid "Reputable brand"
+msgstr "Репутационный бренд"
+
+#: includes/class-product-form.php:124
+#: includes/class-product-recommendation-activator.php:187
+#: includes/class-product-recommendation-frontend.php:148
+#: includes/class-product-recommendation-settings.php:200
+#: includes/class-product-recommendation.php:691
+#, fuzzy
+msgid "Low energy consumption"
+msgstr "Низкое энергопотребление"
+
+#: includes/class-product-form.php:125
+#: includes/class-product-recommendation-activator.php:188
+#: includes/class-product-recommendation-frontend.php:149
+#: includes/class-product-recommendation-settings.php:201
+#: includes/class-product-recommendation.php:692
+#, fuzzy
+msgid "Portability"
+msgstr "Портативный"
+
+#: includes/class-product-form.php:126
+#: includes/class-product-recommendation-activator.php:189
+#: includes/class-product-recommendation-frontend.php:150
+#: includes/class-product-recommendation-settings.php:202
+#: includes/class-product-recommendation.php:693
+msgid "Multi-functionality"
+msgstr ""
+
+#: includes/class-product-form.php:276
+msgid ""
+"No options defined for this question. Please add options from WooCommerce "
+"attributes or plugin settings."
+msgstr ""
+
+#: includes/class-product-form.php:285
+#: includes/class-product-recommendation-frontend.php:279
+#: includes/class-product-recommendation.php:471
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: includes/class-product-form.php:288
+#: includes/class-product-recommendation-frontend.php:280
+#: includes/class-product-recommendation.php:472
+msgid "Next"
+msgstr "Далее"
+
+#: includes/class-product-form.php:290
+#: includes/class-product-recommendation-frontend.php:281
+#: includes/class-product-recommendation.php:473
+#, fuzzy
+msgid "Get Recommendations"
+msgstr "Система рекомендаций продуктов"
+
+#: includes/class-product-form.php:377
+#, fuzzy
+msgid "Recommended products for you:"
+msgstr "Рекомендуемые продукты"
+
+#: includes/class-product-form.php:425
+#: includes/class-product-recommendation-frontend.php:192
+#: includes/class-product-recommendation.php:209
+msgid "View Details"
+msgstr "Посмотреть детали"
+
+#: includes/class-product-form.php:426
+#: includes/class-product-recommendation-frontend.php:193
+#: includes/class-product-recommendation.php:210
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: includes/class-product-recommendation-activator.php:208
+msgid "Product Category"
+msgstr "Категория продукта"
+
+#: includes/class-product-recommendation-activator.php:209
+msgid "Price Range"
+msgstr "Диапазон цен"
+
+#: includes/class-product-recommendation-activator.php:210
+#, fuzzy
+msgid "Product Target"
+msgstr "Категория продукта"
+
+#: includes/class-product-recommendation-activator.php:211
+msgid "Style and Color"
+msgstr ""
+
+#: includes/class-product-recommendation-activator.php:212
+#, fuzzy
+msgid "Product Usage"
+msgstr "Категория продукта"
+
+#: includes/class-product-recommendation-activator.php:213
+msgid "Special Feature"
+msgstr "Особенная функция"
+
+#: includes/class-product-recommendation-ajax.php:59
+#: includes/class-product-recommendation-ajax.php:125
+#: includes/class-product-recommendation-ajax.php:217
+msgid "This is a sample product"
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:59
+#: includes/class-product-recommendation-ajax.php:217
+msgid "Please add real products to the store."
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:62
+#: includes/class-product-recommendation-ajax.php:76
+#: includes/class-product-recommendation-ajax.php:220
+#: includes/class-product-recommendation-ajax.php:234
+msgid "Contact for price"
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:102
+msgid "Error processing request:"
+msgstr ""
+
+#: includes/class-product-recommendation-ajax.php:124
+#, fuzzy
+msgid "Sample Product"
+msgstr "Сохраните продукт"
+
+#: includes/class-product-recommendation-frontend.php:189
+#: includes/class-product-recommendation.php:206
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: includes/class-product-recommendation-frontend.php:190
+#: includes/class-product-recommendation.php:207
+msgid "An error occurred. Please try again."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте снова."
+
+#: includes/class-product-recommendation-frontend.php:191
+#: includes/class-product-recommendation.php:208
+#: includes/class-product-recommendation.php:510
+msgid "No products found matching your criteria."
+msgstr "Не найдено продуктов, соответствующих вашим критериям."
+
+#: includes/class-product-recommendation-frontend.php:207
+#: includes/class-product-recommendation-settings.php:273
+#: includes/class-product-recommendation.php:399
+#, fuzzy
+msgid "Product Recommendation"
+msgstr "Система рекомендаций продуктов"
+
+#: includes/class-product-recommendation-frontend.php:208
+#: includes/class-product-recommendation.php:400
+msgid ""
+"Please answer a few short questions so we can recommend the right product "
+"for you"
+msgstr ""
+
+#: includes/class-product-recommendation-frontend.php:226
+#: includes/class-product-recommendation.php:418
+#, fuzzy
+msgid "Category"
+msgstr "Категория продукта"
+
+#: includes/class-product-recommendation-frontend.php:229
+#: includes/class-product-recommendation.php:421
+#, fuzzy
+msgid "Price"
+msgstr "Диапазон цен"
+
+#: includes/class-product-recommendation-frontend.php:232
+#: includes/class-product-recommendation.php:424
+msgid "Target"
+msgstr ""
+
+#: includes/class-product-recommendation-frontend.php:235
+#: includes/class-product-recommendation.php:427
+msgid "Style"
+msgstr "Стиль"
+
+#: includes/class-product-recommendation-frontend.php:238
+#: includes/class-product-recommendation.php:430
+msgid "Usage"
+msgstr "Использование"
+
+#: includes/class-product-recommendation-frontend.php:241
+#: includes/class-product-recommendation.php:433
+#, fuzzy
+msgid "Feature"
+msgstr "Особенная функция"
+
+#: includes/class-product-recommendation-frontend.php:288
+#: includes/class-product-recommendation.php:480
+#, fuzzy
+msgid "Processing..."
+msgstr "Загрузка..."
+
+#: includes/class-product-recommendation-settings.php:241
+#, fuzzy
+msgid ""
+"Plugin feature management is only done through this page. Plugin-related "
+"links have been removed from other dashboard sections."
+msgstr ""
+"Управление функциями плагина доступно только через эту страницу. Ссылки, "
+"связанные с плагином, были удалены из других разделов панели управления."
+
+#: includes/class-product-recommendation-settings.php:246
+msgid ""
+"Plugin default language has been updated to match the current WordPress "
+"language."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:275
+#: includes/class-product-recommendation.php:238
+#: includes/class-product-recommendation.php:239
+msgid "Guide"
+msgstr "Руководство"
+
+#: includes/class-product-recommendation-settings.php:276
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: includes/class-product-recommendation-settings.php:277
+msgid "Base Questions"
+msgstr "Базовые вопросы"
+
+#: includes/class-product-recommendation-settings.php:278
+msgid "Plugin Features"
+msgstr "Функции плагина"
+
+#: includes/class-product-recommendation-settings.php:279
+msgid "Language Support"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:283
+msgid "Complete Guide to Using the Product Recommendation Plugin"
+msgstr "Полное руководство по использованию плагина рекомендаций продуктов"
+
+#: includes/class-product-recommendation-settings.php:285
+msgid "Step 1: Configure Base Questions"
+msgstr "Шаг 1: Настройка базовых вопросов"
+
+#: includes/class-product-recommendation-settings.php:287
+msgid "Go to the Base Questions tab"
+msgstr "Перейдите на вкладку 'Базовые вопросы'"
+
+#: includes/class-product-recommendation-settings.php:288
+msgid ""
+"Review the default questions (product category, price range, target "
+"audience, style, usage, special feature)"
+msgstr ""
+"Просмотрите вопросы по умолчанию (категория продукта, ценовой диапазон, "
+"целевая аудитория, стиль, использование, особая функция)"
+
+#: includes/class-product-recommendation-settings.php:289
+msgid "Edit question titles if needed"
+msgstr "При необходимости отредактируйте заголовки вопросов"
+
+#: includes/class-product-recommendation-settings.php:290
+msgid ""
+"Enter options for each question in the relevant section (one option per line)"
+msgstr ""
+"Введите варианты для каждого вопроса в соответствующем разделе (один вариант "
+"на строку)"
+
+#: includes/class-product-recommendation-settings.php:291
+msgid "To add a new question, use the 'Add New Question' section"
+msgstr ""
+"Для добавления нового вопроса используйте раздел 'Добавить новый вопрос'"
+
+#: includes/class-product-recommendation-settings.php:292
+msgid "Click the Save Base Questions button"
+msgstr "Нажмите кнопку 'Сохранить базовые вопросы'"
+
+#: includes/class-product-recommendation-settings.php:295
+msgid "Step 2: Customize Form Appearance"
+msgstr "Шаг 2: Настройка внешнего вида формы"
+
+#: includes/class-product-recommendation-settings.php:297
+msgid "Go to the General Settings tab"
+msgstr "Перейдите на вкладку 'Общие настройки'"
+
+#: includes/class-product-recommendation-settings.php:298
+msgid "Check that the plugin is enabled (should be checked)"
+msgstr "Убедитесь, что плагин включен (должен быть отмечен)"
+
+#: includes/class-product-recommendation-settings.php:299
+msgid "Enter a custom message if needed"
+msgstr "При необходимости введите пользовательское сообщение"
+
+#: includes/class-product-recommendation-settings.php:300
+msgid "Set the primary plugin color (example: #8c0101)"
+msgstr "Установите основной цвет плагина (пример: #8c0101)"
+
+#: includes/class-product-recommendation-settings.php:301
+msgid "Choose the form font color (example: #fff for white)"
+msgstr "Выберите цвет шрифта формы (пример: #fff для белого)"
+
+#: includes/class-product-recommendation-settings.php:302
+msgid "Set button colors and button text colors"
+msgstr "Установите цвета кнопок и цвета текста кнопок"
+
+#: includes/class-product-recommendation-settings.php:303
+msgid "Click the Save General Settings button"
+msgstr "Нажмите кнопку 'Сохранить общие настройки'"
+
+#: includes/class-product-recommendation-settings.php:306
+msgid "Step 3: Manage Product Characteristics"
+msgstr "Шаг 3: Управление характеристиками продуктов"
+
+#: includes/class-product-recommendation-settings.php:308
+msgid "Go to the Plugin Features tab"
+msgstr "Перейдите на вкладку 'Функции плагина'"
+
+#: includes/class-product-recommendation-settings.php:309
+msgid "View the list of all available characteristics"
+msgstr "Просмотрите список всех доступных характеристик"
+
+#: includes/class-product-recommendation-settings.php:310
+msgid "For each characteristic, review the available options"
+msgstr "Для каждой характеристики просмотрите доступные варианты"
+
+#: includes/class-product-recommendation-settings.php:311
+msgid "Add new options if needed"
+msgstr "При необходимости добавьте новые варианты"
+
+#: includes/class-product-recommendation-settings.php:312
+msgid "Remove unnecessary options"
+msgstr "Удалите ненужные варианты"
+
+#: includes/class-product-recommendation-settings.php:313
+msgid "Or use separate submenus to manage each characteristic:"
+msgstr ""
+"Или используйте отдельные подменю для управления каждой характеристикой:"
+
+#: includes/class-product-recommendation-settings.php:315
+#, fuzzy
+msgid "Product Characteristics:"
+msgstr "Характеристики продукта"
+
+#: includes/class-product-recommendation-settings.php:315
+#, fuzzy
+msgid "to define different product characteristics"
+msgstr ""
+"Характеристики продукта: для определения различных характеристик продукта"
+
+#: includes/class-product-recommendation-settings.php:316
+msgid "Suitable For:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:316
+#, fuzzy
+msgid "to define occasions"
+msgstr "Подходит для: для определения случаев"
+
+#: includes/class-product-recommendation-settings.php:317
+msgid "Suitable Season:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:317
+#, fuzzy
+msgid "to define suitable seasons"
+msgstr "Подходящий сезон: для определения подходящих сезонов"
+
+#: includes/class-product-recommendation-settings.php:318
+msgid "Gender:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:318
+#, fuzzy
+msgid "to define suitable gender"
+msgstr "Пол: для определения подходящего пола"
+
+#: includes/class-product-recommendation-settings.php:319
+msgid "Quality:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:319
+#, fuzzy
+msgid "to define quality levels"
+msgstr "Качество: для определения уровней качества"
+
+#: includes/class-product-recommendation-settings.php:320
+#, fuzzy
+msgid "Usage:"
+msgstr "Использование"
+
+#: includes/class-product-recommendation-settings.php:320
+#, fuzzy
+msgid "to define different usages"
+msgstr "Использование: для определения различных применений"
+
+#: includes/class-product-recommendation-settings.php:325
+msgid "Step 4: Configure Products"
+msgstr "Шаг 4: Настройка продуктов"
+
+#: includes/class-product-recommendation-settings.php:327
+msgid "Go to Products > All Products"
+msgstr "Перейдите в Продукты > Все продукты"
+
+#: includes/class-product-recommendation-settings.php:328
+msgid "Click on the desired product to edit it"
+msgstr "Нажмите на нужный продукт для его редактирования"
+
+#: includes/class-product-recommendation-settings.php:329
+msgid ""
+"In the Product Characteristics section (located at the bottom of the product "
+"page):"
+msgstr ""
+"В разделе 'Характеристики продукта' (расположен внизу страницы продукта):"
+
+#: includes/class-product-recommendation-settings.php:330
+msgid "For each base question, select the appropriate option:"
+msgstr "Для каждого базового вопроса выберите подходящий вариант:"
+
+#: includes/class-product-recommendation-settings.php:332
+msgid ""
+"Product Category: Clothing, Digital Accessories, Home Appliances, Beauty & "
+"Health, Books, Other"
+msgstr ""
+"Категория продукта: Одежда, Цифровые аксессуары, Бытовая техника, Красота и "
+"здоровье, Книги, Другое"
+
+#: includes/class-product-recommendation-settings.php:333
+msgid ""
+"Price Range: Less than 500 thousand Tomans, 500 thousand to 2 million "
+"Tomans, More than 2 million Tomans"
+msgstr ""
+"Ценовой диапазон: менее 500 тысяч рублей, от 500 тысяч до 2 миллионов рублей, более 2 миллионов рублей"
+
+#: includes/class-product-recommendation-settings.php:334
+msgid ""
+"Target Audience: Myself, Family members, Gift for friend, Child, Teenager, "
+"Adult"
+msgstr ""
+"Целевая аудитория: Я сам, Члены семьи, Подарок другу, Ребенок, Подросток, "
+"Взрослый"
+
+#: includes/class-product-recommendation-settings.php:335
+msgid "Style: Bright colors, Dark colors, Classic, Modern, Sporty"
+msgstr ""
+"Стиль: Яркие цвета, Темные цвета, Классический, Современный, Спортивный"
+
+#: includes/class-product-recommendation-settings.php:336
+msgid "Usage: Daily use, Party, Workplace, Travel, Sports"
+msgstr ""
+"Использование: Ежедневное использование, Вечеринка, Рабочее место, "
+"Путешествие, Спорт"
+
+#: includes/class-product-recommendation-settings.php:337
+msgid ""
+"Special Feature: High build quality, Reputable brand, Low energy "
+"consumption, Portable, Multi-functional"
+msgstr ""
+"Особая функция: Высокое качество сборки, Репутационный бренд, Низкое "
+"энергопотребление, Портативность, Многофункциональность"
+
+#: includes/class-product-recommendation-settings.php:340
+msgid ""
+"Also configure other product characteristics (features, occasions, seasons, "
+"etc.)"
+msgstr ""
+"Также настройте другие характеристики продукта (особенности, случаи, сезоны "
+"и т.д.)"
+
+#: includes/class-product-recommendation-settings.php:341
+msgid "Save the product"
+msgstr "Сохраните продукт"
+
+#: includes/class-product-recommendation-settings.php:342
+msgid "Repeat this process for all products you want to display in the form"
+msgstr ""
+"Повторите этот процесс для всех продуктов, которые вы хотите отобразить в "
+"форме"
+
+#: includes/class-product-recommendation-settings.php:345
+msgid "Step 5: Place the Form on Your Site"
+msgstr "Шаг 5: Размещение формы на вашем сайте"
+
+#: includes/class-product-recommendation-settings.php:347
+msgid "Go to Pages > Add New Page"
+msgstr "Перейдите в Страницы > Добавить новую страницу"
+
+#: includes/class-product-recommendation-settings.php:348
+msgid "Enter the page title (example: Product Recommendation)"
+msgstr "Введите заголовок страницы (пример: Рекомендация продуктов)"
+
+#: includes/class-product-recommendation-settings.php:349
+msgid "In the page content, place the following shortcode:"
+msgstr "В содержимом страницы разместите следующий шорткод:"
+
+#: includes/class-product-recommendation-settings.php:351
+msgid "Publish the page"
+msgstr "Опубликуйте страницу"
+
+#: includes/class-product-recommendation-settings.php:352
+msgid ""
+"Or place the same shortcode in any other page or post where you want the "
+"form to appear"
+msgstr ""
+"Или разместите тот же шорткод на любой другой странице или записи, где вы "
+"хотите, чтобы появилась форма"
+
+#: includes/class-product-recommendation-settings.php:355
+msgid "Step 6: Test Functionality"
+msgstr "Шаг 6: Тестирование функциональности"
+
+#: includes/class-product-recommendation-settings.php:357
+msgid "Go to the page where you placed the form"
+msgstr "Перейдите на страницу, где вы разместили форму"
+
+#: includes/class-product-recommendation-settings.php:358
+msgid ""
+"View the form and make sure questions and options are displayed correctly"
+msgstr ""
+"Просмотрите форму и убедитесь, что вопросы и варианты отображаются правильно"
+
+#: includes/class-product-recommendation-settings.php:359
+msgid "Fill out the form and try different responses"
+msgstr "Заполните форму и попробуйте разные ответы"
+
+#: includes/class-product-recommendation-settings.php:360
+msgid "Check that recommended products are displayed"
+msgstr "Проверьте, что отображаются рекомендуемые продукты"
+
+#: includes/class-product-recommendation-settings.php:361
+msgid ""
+"If no product is displayed, check that the product characteristics are set "
+"correctly"
+msgstr ""
+"Если продукт не отображается, проверьте, что характеристики продукта "
+"установлены правильно"
+
+#: includes/class-product-recommendation-settings.php:364
+msgid "Troubleshooting Common Issues"
+msgstr "Устранение общих проблем"
+
+#: includes/class-product-recommendation-settings.php:366
+msgid "Question options are empty:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:366
+#, fuzzy
+msgid "Go to the Plugin Features tab and add options"
+msgstr "Перейдите на вкладку 'Функции плагина'"
+
+#: includes/class-product-recommendation-settings.php:367
+#, fuzzy
+msgid "No product is displayed:"
+msgstr "Продукт не отображается: Проверьте характеристики продукта"
+
+#: includes/class-product-recommendation-settings.php:367
+#, fuzzy
+msgid "Check product characteristics"
+msgstr "Характеристики продукта"
+
+#: includes/class-product-recommendation-settings.php:368
+#, fuzzy
+msgid "Colors are not correct:"
+msgstr "Цвета неправильные: Проверьте общие настройки"
+
+#: includes/class-product-recommendation-settings.php:368
+#, fuzzy
+msgid "Check general settings"
+msgstr "Сохранить общие настройки"
+
+#: includes/class-product-recommendation-settings.php:369
+#, fuzzy
+msgid "Form is not displayed:"
+msgstr "Форма не отображается: Проверьте шорткод"
+
+#: includes/class-product-recommendation-settings.php:369
+#, fuzzy
+msgid "Check the shortcode"
+msgstr "Форма не отображается: Проверьте шорткод"
+
+#: includes/class-product-recommendation-settings.php:372
+msgid "Important Notes"
+msgstr "Важные примечания"
+
+#: includes/class-product-recommendation-settings.php:374
+msgid ""
+"All characteristic management and plugin options are done only through this "
+"page"
+msgstr ""
+"Все управление характеристиками и опции плагина выполняются только через эту "
+"страницу"
+
+#: includes/class-product-recommendation-settings.php:375
+msgid "Plugin-related links have been removed from other admin sections"
+msgstr ""
+"Ссылки, связанные с плагином, были удалены из других разделов администратора"
+
+#: includes/class-product-recommendation-settings.php:376
+msgid ""
+"For best results, configure at least 6 products with different "
+"characteristics"
+msgstr ""
+"Для лучших результатов настройте как минимум 6 продуктов с разными "
+"характеристиками"
+
+#: includes/class-product-recommendation-settings.php:377
+msgid "Product characteristics must match question options"
+msgstr "Характеристики продукта должны соответствовать вариантам вопросов"
+
+#: includes/class-product-recommendation-settings.php:378
+msgid "The form automatically adapts to your settings"
+msgstr "Форма автоматически адаптируется к вашим настройкам"
+
+#: includes/class-product-recommendation-settings.php:381
+#: includes/class-product-recommendation-settings.php:1214
+msgid "Supported Languages and Countries"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:382
+#: includes/class-product-recommendation-settings.php:1215
+msgid ""
+"This plugin supports multiple languages and automatically adapts to your "
+"WordPress language setting. The following languages and countries are fully "
+"supported:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:385
+#: includes/class-product-recommendation-settings.php:1218
+msgid "Persian/Farsi (فارسی)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:387
+#: includes/class-product-recommendation-settings.php:1220
+msgid "Iran"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:388
+#: includes/class-product-recommendation-settings.php:1223
+#, fuzzy
+msgid "General Persian"
+msgstr "Общие настройки"
+
+#: includes/class-product-recommendation-settings.php:393
+#: includes/class-product-recommendation-settings.php:1228
+msgid "English"
+msgstr "Английский"
+
+#: includes/class-product-recommendation-settings.php:395
+#: includes/class-product-recommendation-settings.php:1230
+msgid "United States"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:396
+#: includes/class-product-recommendation-settings.php:1231
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:397
+#: includes/class-product-recommendation-settings.php:1232
+msgid "Canada"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:398
+#: includes/class-product-recommendation-settings.php:1233
+msgid "Australia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:399
+#: includes/class-product-recommendation-settings.php:1234
+msgid "New Zealand"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:400
+#: includes/class-product-recommendation-settings.php:1235
+msgid "South Africa"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:401
+#: includes/class-product-recommendation-settings.php:1236
+msgid "Ireland"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:402
+#: includes/class-product-recommendation-settings.php:1248
+#, fuzzy
+msgid "General English"
+msgstr "Общие настройки"
+
+#: includes/class-product-recommendation-settings.php:407
+#: includes/class-product-recommendation-settings.php:1253
+#, fuzzy
+msgid "Russian (Русский)"
+msgstr "Русский"
+
+#: includes/class-product-recommendation-settings.php:409
+#: includes/class-product-recommendation-settings.php:1255
+msgid "Russia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:410
+#: includes/class-product-recommendation-settings.php:1256
+msgid "Ukraine"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:411
+#: includes/class-product-recommendation-settings.php:1257
+msgid "Belarus"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:412
+#: includes/class-product-recommendation-settings.php:1258
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:413
+#: includes/class-product-recommendation-settings.php:1259
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:414
+#: includes/class-product-recommendation-settings.php:1260
+#, fuzzy
+msgid "General Russian"
+msgstr "Общие настройки"
+
+#: includes/class-product-recommendation-settings.php:419
+#: includes/class-product-recommendation-settings.php:1265
+msgid "Chinese (中文)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:421
+#: includes/class-product-recommendation-settings.php:1267
+msgid "China (Simplified)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:422
+#: includes/class-product-recommendation-settings.php:1268
+msgid "Taiwan (Traditional)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:423
+#: includes/class-product-recommendation-settings.php:1247
+#: includes/class-product-recommendation-settings.php:1269
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:424
+#: includes/class-product-recommendation-settings.php:1246
+#: includes/class-product-recommendation-settings.php:1270
+msgid "Singapore"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:425
+#: includes/class-product-recommendation-settings.php:1271
+msgid "Macau"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:426
+#: includes/class-product-recommendation-settings.php:1272
+#, fuzzy
+msgid "General Chinese"
+msgstr "Общие настройки"
+
+#: includes/class-product-recommendation-settings.php:431
+#: includes/class-product-recommendation-settings.php:1277
+#, fuzzy
+msgid "Arabic (العربية)"
+msgstr "Арабский"
+
+#: includes/class-product-recommendation-settings.php:433
+#: includes/class-product-recommendation-settings.php:1279
+#, fuzzy
+msgid "General Arabic"
+msgstr "Общие настройки"
+
+#: includes/class-product-recommendation-settings.php:434
+#: includes/class-product-recommendation-settings.php:1280
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:435
+#: includes/class-product-recommendation-settings.php:1281
+msgid "Egypt"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:436
+#: includes/class-product-recommendation-settings.php:1282
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:437
+#: includes/class-product-recommendation-settings.php:1283
+msgid "Jordan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:438
+#: includes/class-product-recommendation-settings.php:1284
+msgid "Syria"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:439
+#: includes/class-product-recommendation-settings.php:1285
+msgid "Lebanon"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:440
+#: includes/class-product-recommendation-settings.php:1286
+msgid "Iraq"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:441
+#: includes/class-product-recommendation-settings.php:1287
+msgid "Kuwait"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:442
+#: includes/class-product-recommendation-settings.php:1288
+msgid "Qatar"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:443
+#: includes/class-product-recommendation-settings.php:1289
+msgid "Bahrain"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:444
+#: includes/class-product-recommendation-settings.php:1290
+msgid "Oman"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:445
+#: includes/class-product-recommendation-settings.php:1291
+msgid "Yemen"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:446
+#: includes/class-product-recommendation-settings.php:1292
+msgid "Palestine"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:447
+#: includes/class-product-recommendation-settings.php:1293
+msgid "Israel"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:448
+#: includes/class-product-recommendation-settings.php:1294
+msgid "Morocco"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:449
+#: includes/class-product-recommendation-settings.php:1295
+msgid "Algeria"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:450
+#: includes/class-product-recommendation-settings.php:1296
+msgid "Tunisia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:451
+#: includes/class-product-recommendation-settings.php:1297
+msgid "Libya"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:452
+#: includes/class-product-recommendation-settings.php:1298
+msgid "Sudan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:453
+#: includes/class-product-recommendation-settings.php:1299
+msgid "Chad"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:454
+#: includes/class-product-recommendation-settings.php:1300
+msgid "Mauritania"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:455
+#: includes/class-product-recommendation-settings.php:1301
+msgid "Djibouti"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:456
+#: includes/class-product-recommendation-settings.php:1302
+msgid "Somalia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:457
+#: includes/class-product-recommendation-settings.php:1303
+msgid "Comoros"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:458
+#: includes/class-product-recommendation-settings.php:1304
+msgid "Eritrea"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:459
+#: includes/class-product-recommendation-settings.php:1305
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:460
+#: includes/class-product-recommendation-settings.php:1306
+msgid "South Sudan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:465
+#: includes/class-product-recommendation-settings.php:1311
+msgid "Automatic Language Detection"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:466
+#: includes/class-product-recommendation-settings.php:1312
+msgid ""
+"The plugin automatically detects your WordPress language setting and adapts "
+"all interface elements, questions, and options accordingly. If your "
+"WordPress language is set to one of the supported languages, the plugin will "
+"automatically use that language for all text and interface elements."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:470
+msgid "Summary of Steps:"
+msgstr "Сводка шагов:"
+
+#: includes/class-product-recommendation-settings.php:471
+msgid ""
+"1. Configure base questions → 2. Customize form appearance → 3. Manage "
+"characteristics → 4. Configure products → 5. Place form on site → 6. Test "
+"functionality"
+msgstr ""
+"1. Настройте базовые вопросы → 2. Настройте внешний вид формы → 3. "
+"Управляйте характеристиками → 4. Настройте продукты → 5. Разместите форму на "
+"сайте → 6. Протестируйте функциональность"
+
+#: includes/class-product-recommendation-settings.php:483
+msgid "Enable Plugin"
+msgstr "Включить плагин"
+
+#: includes/class-product-recommendation-settings.php:489
+msgid "Custom Message"
+msgstr "Пользовательское сообщение"
+
+#: includes/class-product-recommendation-settings.php:495
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: includes/class-product-recommendation-settings.php:497
+msgid "Example: #8c0101 or rgba(140,1,1,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:498
+msgid ""
+"Enter color code in HEX or RGBA format. (Example: #8c0101 or rgba(140,1,1,1))"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:502
+#, fuzzy
+msgid "Form Font Color"
+msgstr "Цвет шрифта"
+
+#: includes/class-product-recommendation-settings.php:504
+msgid "#fff or #000 or rgba(255,255,255,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:505
+msgid "Enter form font color code."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:509
+#, fuzzy
+msgid "Form Button Color"
+msgstr "Цвет кнопки"
+
+#: includes/class-product-recommendation-settings.php:511
+msgid "#fff or #8c0101 or rgba(140,1,1,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:512
+msgid "Enter form button background color code."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:516
+#, fuzzy
+msgid "Form Button Text Color"
+msgstr "Цвет текста кнопки"
+
+#: includes/class-product-recommendation-settings.php:518
+msgid "#8c0101 or #fff or rgba(140,1,1,1)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:519
+msgid "Enter form button text color code."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:523
+msgid "Save General Settings"
+msgstr "Сохранить общие настройки"
+
+#: includes/class-product-recommendation-settings.php:580
+msgid "Base questions reset to default for this language."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:593
+msgid "Question deleted."
+msgstr "Вопрос удален."
+
+#: includes/class-product-recommendation-settings.php:604
+#: includes/class-product-recommendation-settings.php:615
+msgid "Question moved."
+msgstr "Вопрос перемещен."
+
+#: includes/class-product-recommendation-settings.php:636
+msgid "Base questions saved."
+msgstr "Базовые вопросы сохранены."
+
+#: includes/class-product-recommendation-settings.php:651
+msgid "New question added."
+msgstr "Новый вопрос добавлен."
+
+#: includes/class-product-recommendation-settings.php:669
+msgid "Select Language for Base Questions"
+msgstr "Выберите язык для базовых вопросов"
+
+#: includes/class-product-recommendation-settings.php:670
+#: includes/class-product-recommendation-settings.php:1506
+msgid "Current WordPress Language:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:671
+#: includes/class-product-recommendation-settings.php:1507
+#, fuzzy
+msgid "Plugin Default Language:"
+msgstr "Функции плагина"
+
+#: includes/class-product-recommendation-settings.php:676
+msgid "Default"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:680
+#, fuzzy
+msgid ""
+"Select the language to edit base questions for that language. The current "
+"WordPress language is automatically selected."
+msgstr "Выберите язык для редактирования базовых вопросов для этого языка."
+
+#: includes/class-product-recommendation-settings.php:701
+#: includes/class-product-recommendation-settings.php:733
+msgid "Question Title"
+msgstr "Заголовок вопроса"
+
+#: includes/class-product-recommendation-settings.php:705
+#: includes/class-product-recommendation-settings.php:737
+msgid "WooCommerce Attribute"
+msgstr "Атрибут WooCommerce"
+
+#: includes/class-product-recommendation-settings.php:709
+#: includes/class-product-recommendation-settings.php:741
+msgid "Options (one per line)"
+msgstr "Варианты (по одному в строке)"
+
+#: includes/class-product-recommendation-settings.php:714
+#, fuzzy
+msgid "Delete?"
+msgstr "Удалить"
+
+#: includes/class-product-recommendation-settings.php:714
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/class-product-recommendation-settings.php:716
+msgid "Up"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:719
+#, fuzzy
+msgid "Down"
+msgstr "Переместить вниз"
+
+#: includes/class-product-recommendation-settings.php:725
+msgid "Save Base Questions"
+msgstr "Сохранить базовые вопросы"
+
+#: includes/class-product-recommendation-settings.php:728
+msgid "Add New Question"
+msgstr "Добавить новый вопрос"
+
+#: includes/class-product-recommendation-settings.php:745
+#, fuzzy
+msgid "Add Question"
+msgstr "Добавить новый вопрос"
+
+#: includes/class-product-recommendation-settings.php:749
+msgid "Reset Base Questions to Default for This Language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:813
+#, fuzzy
+msgid "Plugin Features (Taxonomy)"
+msgstr "Функции плагина"
+
+#: includes/class-product-recommendation-settings.php:814
+msgid ""
+"In this section, you can manage the options for each feature (taxonomy). "
+"Adding, editing, and deleting options is only possible from this section, "
+"and access to WooCommerce's default management for these features is "
+"disabled."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:815
+msgid "Feature Name (taxonomy)"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:815
+msgid "Title"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:815
+#, fuzzy
+msgid "Options (terms)"
+msgstr "Варианты (по одному в строке)"
+
+#: includes/class-product-recommendation-settings.php:846
+msgid "No options"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:852
+#, fuzzy
+msgid "Add new option..."
+msgstr "При необходимости добавьте новые варианты"
+
+#: includes/class-product-recommendation-settings.php:853
+msgid "Add"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:859
+msgid "This list only displays features managed by the plugin."
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:868
+#, fuzzy
+msgid "New option added."
+msgstr "Новый вопрос добавлен."
+
+#: includes/class-product-recommendation-settings.php:870
+msgid "Error:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1221
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1222
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1237
+msgid "India"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1238
+msgid "Pakistan"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1239
+msgid "Nigeria"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1240
+msgid "Kenya"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1241
+msgid "Uganda"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1242
+msgid "Tanzania"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1243
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1244
+msgid "Philippines"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1245
+msgid "Malaysia"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1316
+msgid "How to Change Language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1317
+msgid "To change the plugin language:"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1319
+msgid "Go to WordPress Admin → Settings → General"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1320
+msgid "Change the \"Site Language\" setting to your desired language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1321
+#, fuzzy
+msgid "Save the changes"
+msgstr "Сохраните продукт"
+
+#: includes/class-product-recommendation-settings.php:1322
+#, fuzzy
+msgid "The plugin will automatically adapt to the new language"
+msgstr "Форма автоматически адаптируется к вашим настройкам"
+
+#: includes/class-product-recommendation-settings.php:1505
+#, fuzzy
+msgid "Language Information"
+msgstr "Выберите язык для базовых вопросов"
+
+#: includes/class-product-recommendation-settings.php:1509
+msgid "✓ Languages match - Plugin will use current WordPress language"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1511
+msgid ""
+"⚠ Languages differ - Plugin will use WordPress language, but default is "
+"different"
+msgstr ""
+
+#: includes/class-product-recommendation-settings.php:1514
+msgid "Update Plugin Default Language to Match WordPress"
+msgstr ""
+
+#: includes/class-product-recommendation.php:218
+#: includes/class-product-recommendation.php:219
+#: includes/class-product-recommendation.php:317
+msgid "Product Recommendation System"
+msgstr "Система рекомендаций продуктов"
+
+#: includes/class-product-recommendation.php:229
+#: includes/class-product-recommendation.php:230
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-product-recommendation.php:249
+msgid "Product Characteristics"
+msgstr "Характеристики продукта"
+
+#: includes/class-product-recommendation.php:319
+#, fuzzy
+msgid "Usage Guide"
+msgstr "Руководство"
+
+#: includes/class-product-recommendation.php:320
+msgid ""
+"To add a product recommendation form to any page or post, use the following "
+"shortcode:"
+msgstr ""
+"Чтобы добавить форму рекомендаций продуктов на любую страницу или запись, "
+"используйте следующий шорткод:"
+
+#: includes/class-product-recommendation.php:322
+msgid "How to configure products for recommendations"
+msgstr "Как настроить продукты для рекомендаций"
+
+#: includes/class-product-recommendation.php:323
+msgid "To enable a product in the product recommendation system:"
+msgstr "Чтобы включить продукт в систему рекомендаций продуктов:"
+
+#: includes/class-product-recommendation.php:325
+msgid "Create a new product in WooCommerce."
+msgstr "Создайте новый продукт в WooCommerce."
+
+#: includes/class-product-recommendation.php:326
+msgid "In the Product Characteristics section, select appropriate values."
+msgstr "В разделе 'Характеристики продукта' выберите соответствующие значения."
+
+#: includes/class-product-recommendation.php:327
+#: includes/class-product-recommendation.php:372
+msgid "Publish the product."
+msgstr "Опубликуйте продукт."
+
+#: includes/class-product-recommendation.php:329
+msgid ""
+"Form questions and their options are editable from the plugin settings "
+"section."
+msgstr "Вопросы формы и их варианты редактируются из раздела настроек плагина."
+
+#: includes/class-product-recommendation.php:340
+msgid ""
+"Don't forget to set the product characteristics for this product to enable "
+"it in the recommendation system."
+msgstr ""
+"Не забудьте установить характеристики продукта для этого продукта, чтобы "
+"включить его в систему рекомендаций."
+
+#: includes/class-product-recommendation.php:353
+#, fuzzy
+msgid "Product Recommendation System Guide"
+msgstr "Система рекомендаций продуктов"
+
+#: includes/class-product-recommendation.php:355
+msgid "How to Use the System"
+msgstr "Как использовать систему"
+
+#: includes/class-product-recommendation.php:356
+msgid ""
+"The product recommendation system allows you to suggest appropriate products "
+"based on user characteristics."
+msgstr ""
+"Система рекомендаций продуктов позволяет предлагать подходящие продукты на "
+"основе характеристик пользователей."
+
+#: includes/class-product-recommendation.php:358
+msgid "Setup Steps:"
+msgstr "Шаги настройки:"
+
+#: includes/class-product-recommendation.php:360
+#, fuzzy
+msgid "Enable Plugin:"
+msgstr "Включить плагин"
+
+#: includes/class-product-recommendation.php:360
+#, fuzzy
+msgid "Activate the plugin in WordPress."
+msgstr "Включить плагин: Активируйте плагин в WordPress."
+
+#: includes/class-product-recommendation.php:361
+#: includes/class-product-recommendation.php:366
+msgid "Configure Products:"
+msgstr "Настройка продуктов:"
+
+#: includes/class-product-recommendation.php:361
+#, fuzzy
+msgid ""
+"For each product, set appropriate characteristics in the 'Product "
+"Characteristics' section."
+msgstr ""
+"Настройка продуктов: Для каждого продукта установите соответствующие "
+"характеристики в разделе 'Характеристики продукта'."
+
+#: includes/class-product-recommendation.php:362
+#, fuzzy
+msgid "Add Form:"
+msgstr "Добавить в корзину"
+
+#: includes/class-product-recommendation.php:362
+#, fuzzy
+msgid ""
+"Place the shortcode [product_recommendation_form] on the desired page or "
+"post."
+msgstr ""
+"Добавить форму: Разместите шорткод [product_recommendation_form] на нужной "
+"странице или записи."
+
+#: includes/class-product-recommendation.php:363
+msgid "Customize:"
+msgstr ""
+
+#: includes/class-product-recommendation.php:363
+#, fuzzy
+msgid "Personalize the form appearance from the settings section."
+msgstr "Настройка: Персонализируйте внешний вид формы из раздела настроек."
+
+#: includes/class-product-recommendation.php:367
+msgid "To enable a product in the recommendation system:"
+msgstr "Чтобы включить продукт в систему рекомендаций:"
+
+#: includes/class-product-recommendation.php:369
+msgid "Go to the WooCommerce products section."
+msgstr "Перейдите в раздел продуктов WooCommerce."
+
+#: includes/class-product-recommendation.php:370
+msgid "Edit the desired product."
+msgstr "Отредактируйте нужный продукт."
+
+#: includes/class-product-recommendation.php:371
+msgid "In the 'Product Characteristics' section, select appropriate values."
+msgstr "В разделе 'Характеристики продукта' выберите соответствующие значения."
+
+#: includes/class-product-recommendation.php:375
+msgid "Shortcodes:"
+msgstr "Шорткоды:"
+
+#: includes/class-product-recommendation.php:377
+#, fuzzy
+msgid "Product recommendation form"
+msgstr "Система рекомендаций продуктов"
+
+#: includes/class-product-recommendation.php:380
+msgid "Support:"
+msgstr "Поддержка:"
+
+#: includes/class-product-recommendation.php:381
+msgid "For support or to report issues, contact the development team."
+msgstr ""
+"Для поддержки или сообщения о проблемах свяжитесь с командой разработчиков."
+
+#: includes/class-product-recommendation.php:503
+msgid "No answers provided."
+msgstr ""
+
+#: includes/class-product-recommendation.php:515
+#, fuzzy
+msgid "Here are your recommended products:"
+msgstr "Рекомендуемые продукты"
+
+#~ msgid ""
+#~ "A comprehensive product recommendation system for WooCommerce that helps "
+#~ "customers find the perfect products based on their preferences and "
+#~ "characteristics."
+#~ msgstr ""
+#~ "Комплексная система рекомендаций продуктов для WooCommerce, которая "
+#~ "помогает клиентам найти идеальные продукты на основе их предпочтений и "
+#~ "характеристик."
+
+#~ msgid "For Whom"
+#~ msgstr "Для кого"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "Under 500K Toman"
+#~ msgstr "До 500 тыс. туманов"
+
+#~ msgid "500K to 2M Toman"
+#~ msgstr "500 тыс. - 2 млн туманов"
+
+#~ msgid "Over 2M Toman"
+#~ msgstr "Более 2 млн туманов"
+
+#~ msgid "High Quality Construction"
+#~ msgstr "Высокое качество изготовления"
+
+#~ msgid "Multi-purpose"
+#~ msgstr "Многофункциональный"
+
+#~ msgid "What is this product used for?"
+#~ msgstr "Для чего используется этот продукт?"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgid "Start Over"
+#~ msgstr "Начать заново"
+
+#~ msgid "Based on your preferences, here are our recommendations:"
+#~ msgstr "Основываясь на ваших предпочтениях, вот наши рекомендации:"
+
+#~ msgid "No recommendations available."
+#~ msgstr "Рекомендации недоступны."
+
+#~ msgid ""
+#~ "Product Recommendation System requires WooCommerce to be installed and "
+#~ "activated."
+#~ msgstr ""
+#~ "Система рекомендаций продуктов требует установки и активации WooCommerce."
+
+#~ msgid "ویژگی‌های افزونه (Taxonomy)"
+#~ msgstr "Функции плагина (Таксономия)"
+
+#~ msgid ""
+#~ "در این بخش می‌توانید گزینه‌های هر ویژگی (taxonomy) را مدیریت کنید. افزودن، "
+#~ "ویرایش و حذف گزینه‌ها فقط از همین بخش انجام می‌شود و دسترسی به مدیریت "
+#~ "پیش‌فرض ووکامرس برای این ویژگی‌ها غیرفعال است."
+#~ msgstr ""
+#~ "В этом разделе вы можете управлять опциями каждой характеристики "
+#~ "(таксономии). Добавление, редактирование и удаление опций возможно только "
+#~ "здесь, доступ к стандартному управлению WooCommerce для этих "
+#~ "характеристик отключен."
+
+#~ msgid "نام ویژگی (taxonomy)"
+#~ msgstr "Название характеристики (таксономии)"
+
+#~ msgid "افزودن گزینه جدید..."
+#~ msgstr "Добавить новую опцию..."
+
+#~ msgid "این لیست فقط ویژگی‌هایی را نمایش می‌دهد که توسط افزونه مدیریت می‌شوند."
+#~ msgstr ""
+#~ "В этом списке отображаются только характеристики, управляемые плагином."
+
+#~ msgid "افزودن"
+#~ msgstr "Добавить"
+
+#~ msgid "در ادامه چند محصول محبوب از فروشگاه ما را مشاهده می‌کنید:"
+#~ msgstr "Далее представлены некоторые популярные товары нашего магазина:"
+
+#~ msgid "مشاهده جزئیات"
+#~ msgstr "Посмотреть детали"
+
+#~ msgid "افزودن به سبد خرید"
+#~ msgstr "Добавить в корзину"
+
+#~ msgid "Move Up"
+#~ msgstr "Переместить вверх"
+
+#~ msgid ""
+#~ "Question options are empty: Go to the Plugin Features tab and add options"
+#~ msgstr ""
+#~ "Варианты вопросов пусты: Перейдите на вкладку 'Функции плагина' и "
+#~ "добавьте варианты"
+
+#~ msgid "فارسی"
+#~ msgstr "Персидский"
+
+#~ msgid "中文"
+#~ msgstr "Китайский"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Translation Debug"
+msgstr "Отладка перевода"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Translation Debug Information"
+msgstr "Информация об отладке перевода"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "Available Translation Files"
+msgstr "Доступные файлы перевода"
+
+#: includes/class-product-recommendation-settings.php:286
+msgid "No .mo files found."
+msgstr "Файлы .mo не найдены."
