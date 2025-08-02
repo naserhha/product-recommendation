@@ -4,7 +4,7 @@
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-5.0+-green.svg)](https://woocommerce.com/)
 [![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg)](https://php.net/)
 [![License](https://img.shields.io/badge/License-GPL%20v2%20or%20later-red.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](https://github.com/nasserhaji/product-recommendation/releases)
+[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)](https://github.com/naserhha/product-recommendation/releases)
 
 A comprehensive and intelligent product recommendation system for WooCommerce that helps customers find the perfect products based on their preferences and characteristics.
 
@@ -65,7 +65,7 @@ A comprehensive and intelligent product recommendation system for WooCommerce th
 
 ### Method 1: WordPress Admin (Recommended)
 
-1. Download the plugin ZIP file from the [releases page](https://github.com/nasserhaji/product-recommendation/releases)
+1. Download the plugin ZIP file from the [releases page](https://github.com/naserhha/product-recommendation/releases)
 2. Go to your WordPress admin panel → Plugins → Add New
 3. Click "Upload Plugin" and select the downloaded ZIP file
 4. Click "Install Now" and then "Activate Plugin"
@@ -82,7 +82,7 @@ A comprehensive and intelligent product recommendation system for WooCommerce th
 
 ```bash
 cd wp-content/plugins/
-git clone https://github.com/nasserhaji/product-recommendation.git
+git clone https://github.com/naserhha/product-recommendation.git
 ```
 
 ## ⚙️ Configuration
@@ -349,7 +349,7 @@ product-recommendation/
 
 ```bash
 # Clone the repository
-git clone https://github.com/nasserhaji/product-recommendation.git
+git clone https://github.com/naserhha/product-recommendation.git
 
 # Install development dependencies (if any)
 composer install
@@ -419,14 +419,14 @@ This project is licensed under the GPL v2 or later - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-- **Documentation**: [GitHub Wiki](https://github.com/nasserhaji/product-recommendation/wiki)
-- **Issues**: [GitHub Issues](https://github.com/nasserhaji/product-recommendation/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/nasserhaji/product-recommendation/discussions)
+- **Documentation**: [GitHub Wiki](https://github.com/naserhha/product-recommendation/wiki)
+- **Issues**: [GitHub Issues](https://github.com/naserhha/product-recommendation/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/naserhha/product-recommendation/discussions)
 - **Author**: [Mohammad Nasser Haji Hashemabad](https://mohammadnasser.com/)
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=nasserhaji/product-recommendation&type=Date)](https://star-history.com/#nasserhaji/product-recommendation&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=naserhha/product-recommendation&type=Date)](https://star-history.com/#naserhha/product-recommendation&Date)
 
 ---
 
